@@ -1,0 +1,231 @@
+{
+    "data": {
+        "goodsInfo": [
+            {
+                "code": "GWM0500153",
+                "costPrice": "59.00",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0500153_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8071",
+                "isSingle": 2,
+                "name": "太阳 肾炎康复片 0.48g*45片/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0500153/gcg8071201603181354318ab3e253535a9b9b0153884a1d0b1140.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "30.00",
+                "spec": [
+                    
+                ],
+                "title": "慢性肾炎、蛋白尿，血尿，见神疲乏力，腰酸腿软，面目、四肢浮肿，头晕耳鸣等【10盒一疗程(1个月用量)】"
+            },
+            {
+                "code": "GWM0500155",
+                "costPrice": "17.50",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0500155_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8073",
+                "isSingle": 2,
+                "name": "三金 三金片 36片/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0500155/gcg8073201603181403108ab3e253535a9b9b0153885205ba115a.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "19.70",
+                "spec": [
+                    
+                ],
+                "title": "用于热淋、小便短赤、淋沥涩痛、 尿急频数；肾炎、膀胱炎、尿路感染、慢性非细菌性前列腺炎等"
+            },
+            {
+                "code": "GWM0500157",
+                "costPrice": "33.20",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0500157_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8075",
+                "isSingle": 2,
+                "name": "三金 三金片 72片/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0500157/gcg8075201603181703308ab3e253535a9b9b015388f7218f12ca.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "32.00",
+                "spec": [
+                    
+                ],
+                "title": "用于热淋、小便短赤、淋沥涩痛、 尿急频数；肾炎、膀胱炎、尿路感染、慢性非细菌性前列腺炎等【4盒一疗程(1个月用量)】"
+            },
+            {
+                "code": "GWM0500159",
+                "costPrice": "40.00",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0500159_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8077",
+                "isSingle": 2,
+                "name": "致康 生精片 0.5g*24片/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0500159/gcg8077201604081613168ab3e25353f09f9a0153f4eeb1230067.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "33.00",
+                "spec": [
+                    
+                ],
+                "title": "补精益肾，滋阴壮阳【 30盒一疗程（60天量）】"
+            },
+            {
+                "code": "GWM0500160",
+                "costPrice": "35.80",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0500160_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8078",
+                "isSingle": 2,
+                "name": "Warmen/威门 热淋清颗粒 4g*8袋/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0500160/8a2c91bf5595a88601559aa9957801f0.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "38.00",
+                "spec": [
+                    
+                ],
+                "title": "清热解毒、利尿通淋，用于小便赤痛【6盒一疗程】"
+            },
+            {
+                "code": "GWM0500161",
+                "costPrice": "28.00",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0500161_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8079",
+                "isSingle": 2,
+                "name": "力生 男宝胶囊 0.3g*20粒/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0500161/gcg8079201512071714378ab3e2535167bbe301517bb8a60002d8.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "35.00",
+                "spec": [
+                    
+                ],
+                "title": "壮阳补肾，治疗性欲淡漠，阳痿滑泄，腰腿酸痛，肾囊湿冷，精神萎靡，食欲不振等症【10盒/疗程】"
+            },
+            {
+                "code": "GWM0500162",
+                "costPrice": "7.30",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0500162_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8080",
+                "isSingle": 2,
+                "name": "佛慈 金锁固精丸(浓缩丸) 200丸*1瓶/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0500162/gcg8080201603181741548ab3e253535a9b9b0153891a4a5612fa.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "9.00",
+                "spec": [
+                    
+                ],
+                "title": "遗精早泄经典用药"
+            },
+            {
+                "code": "GWM0500164",
+                "costPrice": "14.80",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0500164_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8082",
+                "isSingle": 2,
+                "name": "同仁堂 金匮肾气丸 360丸*1瓶/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0500164/gcg8082201512071727458ab3e2535167bbe301517bc4ab1402f1.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "9.90",
+                "spec": [
+                    
+                ],
+                "title": "温补肾阳，用于肾虚水肿、腰膝酸软"
+            }
+        ],
+        "pageNum": "1",
+        "searchInfo": {
+            "filterInfo": {
+                "brand": "",
+                "price": "",
+                "spec": ""
+            },
+            "keyWord": "",
+            "order": "",
+            "pageNum": 0,
+            "pageSize": 0,
+            "sort": "",
+            "tlevel1": "7|中西药品",
+            "tlevel2": "59|男性疾病",
+            "tlevel3": ""
+        },
+        "searchText": "男性疾病(380)",
+        "totalNum": "380",
+        "totalPageNum": "48",
+        "typeInfo": [
+            
+        ]
+    },
+    "msg": "",
+    "rethost": "",
+    "status": 0
+}

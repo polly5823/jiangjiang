@@ -1,0 +1,1081 @@
+{
+    "data": [
+        {
+            "costPrice": 790,
+            "costPriceStr": "790.00",
+            "gcGoodCode": "GWM0110346",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 699,
+            "sellingPriceStr": "699.00"
+        },
+        {
+            "costPrice": 790,
+            "costPriceStr": "790.00",
+            "gcGoodCode": "GWM0211468",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "OTCsjjyw",
+                    "promotionDesc": "【满一盒立减40元，二盒减110元，三盒减210元,4盒减364元】",
+                    "promotionType": 2,
+                    "type": 1
+                },
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 790,
+            "sellingPriceStr": "790.00"
+        },
+        {
+            "costPrice": 600,
+            "costPriceStr": "600.00",
+            "gcGoodCode": "GWM0210093",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 420,
+            "sellingPriceStr": "420.00"
+        },
+        {
+            "costPrice": 141.9,
+            "costPriceStr": "141.90",
+            "gcGoodCode": "TCGWM0100071",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 130,
+            "sellingPriceStr": "130.00"
+        },
+        {
+            "costPrice": 125,
+            "costPriceStr": "125.00",
+            "gcGoodCode": "GWM0500175",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 135,
+            "sellingPriceStr": "135.00"
+        },
+        {
+            "costPrice": 178,
+            "costPriceStr": "178.00",
+            "gcGoodCode": "GWM0101917",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 189,
+            "sellingPriceStr": "189.00"
+        },
+        {
+            "costPrice": 249,
+            "costPriceStr": "249.00",
+            "gcGoodCode": "GWM0100497",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 220,
+            "sellingPriceStr": "220.00"
+        },
+        {
+            "costPrice": 365,
+            "costPriceStr": "365.00",
+            "gcGoodCode": "GWM0506523",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 480,
+            "sellingPriceStr": "480.00"
+        },
+        {
+            "costPrice": 361.6,
+            "costPriceStr": "361.60",
+            "gcGoodCode": "GWM0102710",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 249,
+            "sellingPriceStr": "249.00"
+        },
+        {
+            "costPrice": 12,
+            "costPriceStr": "12.00",
+            "gcGoodCode": "GWM0100207",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 12,
+            "sellingPriceStr": "12.00"
+        },
+        {
+            "costPrice": 999,
+            "costPriceStr": "999.00",
+            "gcGoodCode": "GWM0204035",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 888,
+            "sellingPriceStr": "888.00"
+        },
+        {
+            "costPrice": 322,
+            "costPriceStr": "322.00",
+            "gcGoodCode": "GWM0111474",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 277,
+            "sellingPriceStr": "277.00"
+        },
+        {
+            "costPrice": 599,
+            "costPriceStr": "599.00",
+            "gcGoodCode": "GWQ0100211",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 219,
+            "sellingPriceStr": "219.00"
+        },
+        {
+            "costPrice": 327.8,
+            "costPriceStr": "327.80",
+            "gcGoodCode": "GWQ0103985",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 239,
+            "sellingPriceStr": "239.00"
+        },
+        {
+            "costPrice": 75.9,
+            "costPriceStr": "75.90",
+            "gcGoodCode": "GWQ0103980",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 239,
+            "sellingPriceStr": "239.00"
+        },
+        {
+            "costPrice": 3980,
+            "costPriceStr": "3980.00",
+            "gcGoodCode": "GWB0311179",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 1799,
+            "sellingPriceStr": "1799.00"
+        },
+        {
+            "costPrice": 318,
+            "costPriceStr": "318.00",
+            "gcGoodCode": "GWF0101688",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 179,
+            "sellingPriceStr": "179.00"
+        },
+        {
+            "costPrice": 69.8,
+            "costPriceStr": "69.80",
+            "gcGoodCode": "GWF0101424",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 0,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "BJPbishengyuan",
+                    "promotionDesc": "限时促销，疯抢中！",
+                    "promotionType": 1,
+                    "type": 3
+                },
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 59,
+            "promotionPriceStr": "59.00",
+            "sellingPrice": 69.8,
+            "sellingPriceStr": "69.80"
+        },
+        {
+            "costPrice": 118,
+            "costPriceStr": "118.00",
+            "gcGoodCode": "GWF0101502",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 98,
+            "sellingPriceStr": "98.00"
+        },
+        {
+            "costPrice": 69,
+            "costPriceStr": "69.00",
+            "gcGoodCode": "GWF0101622",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 49,
+            "sellingPriceStr": "49.00"
+        },
+        {
+            "costPrice": 103.6,
+            "costPriceStr": "103.60",
+            "gcGoodCode": "TCGWB0100092",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 99.8,
+            "sellingPriceStr": "99.80"
+        },
+        {
+            "costPrice": 299,
+            "costPriceStr": "299.00",
+            "gcGoodCode": "GWB0208699",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "DP49910",
+                    "promotionDesc": "国药专享 大牌美妆满499-50",
+                    "promotionType": 2,
+                    "type": 1
+                },
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 289,
+            "sellingPriceStr": "289.00"
+        },
+        {
+            "costPrice": 620,
+            "costPriceStr": "620.00",
+            "gcGoodCode": "GWB0208779",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "DP49910",
+                    "promotionDesc": "国药专享 大牌美妆满499-50",
+                    "promotionType": 2,
+                    "type": 1
+                },
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 590,
+            "sellingPriceStr": "590.00"
+        },
+        {
+            "costPrice": 52.9,
+            "costPriceStr": "52.90",
+            "gcGoodCode": "TCGWB0100097",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 0,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "BHhushubaotaocan",
+                    "promotionDesc": "限时促销，疯抢中！",
+                    "promotionType": 1,
+                    "type": 3
+                },
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 39.9,
+            "promotionPriceStr": "39.90",
+            "sellingPrice": 43.5,
+            "sellingPriceStr": "43.50"
+        },
+        {
+            "costPrice": 65.89,
+            "costPriceStr": "65.89",
+            "gcGoodCode": "GWQ0200272",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "9910",
+                    "promotionDesc": "百货 计生  隐形眼镜  满99立减10",
+                    "promotionType": 2,
+                    "type": 1
+                },
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "by",
+                    "promotionDesc": "计生用品全场包邮",
+                    "promotionType": 3,
+                    "type": 2
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 59,
+            "sellingPriceStr": "59.00"
+        },
+        {
+            "costPrice": 140.8,
+            "costPriceStr": "140.80",
+            "gcGoodCode": "GWQ0203562",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "by",
+                    "promotionDesc": "计生用品全场包邮",
+                    "promotionType": 3,
+                    "type": 2
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 98,
+            "sellingPriceStr": "98.00"
+        },
+        {
+            "costPrice": 38.5,
+            "costPriceStr": "38.50",
+            "gcGoodCode": "GWQ0200276",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "jsby2",
+                    "promotionDesc": "计生用品全场包邮",
+                    "promotionType": 3,
+                    "type": 2
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 69,
+            "sellingPriceStr": "69.00"
+        },
+        {
+            "costPrice": 60.5,
+            "costPriceStr": "60.50",
+            "gcGoodCode": "GWQ0203544",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "9910",
+                    "promotionDesc": "百货 计生  隐形眼镜  满99立减10",
+                    "promotionType": 2,
+                    "type": 1
+                },
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "jsby2",
+                    "promotionDesc": "计生用品全场包邮",
+                    "promotionType": 3,
+                    "type": 2
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 110,
+            "sellingPriceStr": "110.00"
+        },
+        {
+            "costPrice": 45,
+            "costPriceStr": "45.00",
+            "gcGoodCode": "GWQ0303456",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "9910",
+                    "promotionDesc": "百货 计生  隐形眼镜  满99立减10",
+                    "promotionType": 2,
+                    "type": 1
+                },
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "xyyjby",
+                    "promotionDesc": "隐形眼镜全场包邮",
+                    "promotionType": 3,
+                    "type": 2
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 22,
+            "sellingPriceStr": "22.00"
+        },
+        {
+            "costPrice": 41.8,
+            "costPriceStr": "41.80",
+            "gcGoodCode": "GWQ0303392",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "yxyjby1",
+                    "promotionDesc": "隐形眼镜全场包邮",
+                    "promotionType": 3,
+                    "type": 2
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 38,
+            "sellingPriceStr": "38.00"
+        },
+        {
+            "costPrice": 220,
+            "costPriceStr": "220.00",
+            "gcGoodCode": "GWQ0303267",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "9910",
+                    "promotionDesc": "百货 计生  隐形眼镜  满99立减10",
+                    "promotionType": 2,
+                    "type": 1
+                },
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "xyyjby",
+                    "promotionDesc": "隐形眼镜全场包邮",
+                    "promotionType": 3,
+                    "type": 2
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 59.9,
+            "sellingPriceStr": "59.90"
+        },
+        {
+            "costPrice": 99,
+            "costPriceStr": "99.00",
+            "gcGoodCode": "GWQ0303165",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "9910",
+                    "promotionDesc": "百货 计生  隐形眼镜  满99立减10",
+                    "promotionType": 2,
+                    "type": 1
+                },
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "yxyjby2",
+                    "promotionDesc": "隐形眼镜全场包邮",
+                    "promotionType": 3,
+                    "type": 2
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 79.9,
+            "sellingPriceStr": "79.90"
+        },
+        {
+            "costPrice": 418,
+            "costPriceStr": "418.00",
+            "gcGoodCode": "GWM0105520",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 429,
+            "sellingPriceStr": "429.00"
+        },
+        {
+            "costPrice": 38.8,
+            "costPriceStr": "38.80",
+            "gcGoodCode": "GWM0404459",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 0,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "OTCcailetongkangcuo",
+                    "promotionDesc": "限时促销，疯抢中",
+                    "promotionType": 1,
+                    "type": 3
+                },
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 24.5,
+            "promotionPriceStr": "24.50",
+            "sellingPrice": 35,
+            "sellingPriceStr": "35.00"
+        },
+        {
+            "costPrice": 345,
+            "costPriceStr": "345.00",
+            "gcGoodCode": "GWM0500172",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 345,
+            "sellingPriceStr": "345.00"
+        },
+        {
+            "costPrice": 26.4,
+            "costPriceStr": "26.40",
+            "gcGoodCode": "GWM0102772",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 22,
+            "sellingPriceStr": "22.00"
+        },
+        {
+            "costPrice": 60.3,
+            "costPriceStr": "60.30",
+            "gcGoodCode": "GWM0400154",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 54,
+            "sellingPriceStr": "54.00"
+        },
+        {
+            "costPrice": 26.2,
+            "costPriceStr": "26.20",
+            "gcGoodCode": "GWM0402697",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 19.9,
+            "sellingPriceStr": "19.90"
+        },
+        {
+            "costPrice": 120,
+            "costPriceStr": "120.00",
+            "gcGoodCode": "GWM0105920",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 1,
+            "promotionDescList": [
+                
+            ],
+            "promotionPrice": 0,
+            "promotionPriceStr": "0.00",
+            "sellingPrice": 96,
+            "sellingPriceStr": "96.00"
+        },
+        {
+            "costPrice": 30,
+            "costPriceStr": "30.00",
+            "gcGoodCode": "GWM0300226",
+            "goodsTypeTarget": 0,
+            "isLadderPrice": 0,
+            "isPromotion": 0,
+            "promotionDescList": [
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "otcjytn",
+                    "promotionDesc": "【3.8专场】限时促销",
+                    "promotionType": 1,
+                    "type": 3
+                },
+                {
+                    "beginTime": "",
+                    "endTime": "",
+                    "giveGoods": [
+                        
+                    ],
+                    "presentTime": "",
+                    "promotionCode": "zxby",
+                    "promotionDesc": "在线支付满88元包邮",
+                    "promotionType": 3,
+                    "type": 1
+                }
+            ],
+            "promotionPrice": 15,
+            "promotionPriceStr": "15.00",
+            "sellingPrice": 18,
+            "sellingPriceStr": "18.00"
+        }
+    ],
+    "msg": "请求成功...",
+    "rethost": "",
+    "status": 0
+}

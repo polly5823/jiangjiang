@@ -1,0 +1,231 @@
+{
+    "data": {
+        "goodsInfo": [
+            {
+                "code": "GWM0200120",
+                "costPrice": "94.30",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0200120_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8038",
+                "isSingle": 2,
+                "name": "康缘 腰痹通胶囊 0.42g*100粒/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0200120/gcg8038201603181250508ab3e253535a9b9b0153880fcee50fd0.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "68.00",
+                "spec": [
+                    
+                ],
+                "title": "活血化瘀，行气止痛，腰椎间盘突出专科用药"
+            },
+            {
+                "code": "GWM0200121",
+                "costPrice": "75.80",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0200121_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8039",
+                "isSingle": 2,
+                "name": "福善美 阿仑膦酸钠片 70mg*1片/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0200121/gcg8039201603181253038ab3e253535a9b9b01538811d3b40fd9.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "65.00",
+                "spec": [
+                    
+                ],
+                "title": "提高骨密度，减少骨折率【4盒63/盒】"
+            },
+            {
+                "code": "GWM0200122",
+                "costPrice": "4.20",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0200122_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8040",
+                "isSingle": 2,
+                "name": "中大 双氯芬酸钠缓释片(Ⅰ) 0.1g*10片/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0200122/gcg8040201512011706318ab3e253515b800f01515ccb1359022f.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "6.00",
+                "spec": [
+                    
+                ],
+                "title": "镇痛消炎，用于各类疼痛，如风湿性关节炎、肩周炎等"
+            },
+            {
+                "code": "GWM0200137",
+                "costPrice": "7.00",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0200137_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8055",
+                "isSingle": 2,
+                "name": "迪根 双氯芬酸钠缓释片 0.1g*12片/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0200137/gcg8055201603181257288ab3e253535a9b9b01538815e2100fe8.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "6.80",
+                "spec": [
+                    
+                ],
+                "title": "用于类风湿性关节炎,风湿性关节炎,骨关节炎"
+            },
+            {
+                "code": "GWM0200139",
+                "costPrice": "9.00",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0200139_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8057",
+                "isSingle": 2,
+                "name": "东新 肾骨片 0.1g*12片*2板/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0200139/gcg8057201603181304348ab3e253535a9b9b0153881c62831002.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "9.80",
+                "spec": [
+                    
+                ],
+                "title": "用于儿童、成人或老年人缺钙引起的骨质疏松、骨质增生、骨痛、肌肉痉挛，小儿佝偻症。"
+            },
+            {
+                "code": "GWM0200141",
+                "costPrice": "45.00",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0200141_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8059",
+                "isSingle": 2,
+                "name": "本草纲目 麝香祛痛搽剂 100ml*1瓶/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0200141/gcg8059201603181305078ab3e253535a9b9b0153881ce24a1007.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "40.00",
+                "spec": [
+                    
+                ],
+                "title": "用于各种跌打损伤，瘀血肿痛，风湿瘀阻，关节疼痛。"
+            },
+            {
+                "code": "GWM0200143",
+                "costPrice": "1.30",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0200143_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8061",
+                "isSingle": 2,
+                "name": "金寿 少林风湿跌打膏 4片/袋",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0200143/gcg8061201603181306078ab3e253535a9b9b0153881dcd52100d.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "2.20",
+                "spec": [
+                    
+                ],
+                "title": "外用贴膏"
+            },
+            {
+                "code": "GWM0200146",
+                "costPrice": "10.00",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0200146_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8064",
+                "isSingle": 2,
+                "name": "雷氏 三七伤药片 0.33g*27片/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0200146/gcg8064201603181616208ab3e253535a9b9b015388cbf0341271.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "11.20",
+                "spec": [
+                    
+                ],
+                "title": "用于跌打损伤，风湿瘀阻，关节痹痛；急慢性扭挫伤，神经痛"
+            }
+        ],
+        "pageNum": "1",
+        "searchInfo": {
+            "filterInfo": {
+                "brand": "",
+                "price": "",
+                "spec": ""
+            },
+            "keyWord": "",
+            "order": "",
+            "pageNum": 0,
+            "pageSize": 0,
+            "sort": "",
+            "tlevel1": "7|中西药品",
+            "tlevel2": "30|风湿骨科",
+            "tlevel3": ""
+        },
+        "searchText": "风湿骨科(812)",
+        "totalNum": "812",
+        "totalPageNum": "102",
+        "typeInfo": [
+            
+        ]
+    },
+    "msg": "",
+    "rethost": "",
+    "status": 0
+}

@@ -1,0 +1,1937 @@
+{
+    "data": {
+        "filterInfo": {
+            "conditionInfo": [
+                {
+                    "classfly": "品牌",
+                    "id": "1",
+                    "itemArray": [
+                        {
+                            "id": "8",
+                            "name": "同仁堂",
+                            "pinyin": "T",
+                            "type": "0",
+                            "value": {
+                                "value": "同仁堂",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "2612",
+                            "name": "同仁堂 ",
+                            "pinyin": "T",
+                            "type": "0",
+                            "value": {
+                                "value": "同仁堂 ",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "1612",
+                            "name": "太极",
+                            "pinyin": "T",
+                            "type": "0",
+                            "value": {
+                                "value": "太极",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "118",
+                            "name": "修正",
+                            "pinyin": "X",
+                            "type": "0",
+                            "value": {
+                                "value": "修正",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "219",
+                            "name": "白云山",
+                            "pinyin": "B",
+                            "type": "0",
+                            "value": {
+                                "value": "白云山",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "36",
+                            "name": "葵花",
+                            "pinyin": "K",
+                            "type": "0",
+                            "value": {
+                                "value": "葵花",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "227",
+                            "name": "SINE/信谊",
+                            "pinyin": "X",
+                            "type": "0",
+                            "value": {
+                                "value": "SINE/信谊",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "571",
+                            "name": "仁和",
+                            "pinyin": "R",
+                            "type": "0",
+                            "value": {
+                                "value": "仁和",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "312",
+                            "name": "步长",
+                            "pinyin": "B",
+                            "type": "0",
+                            "value": {
+                                "value": "步长",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "111",
+                            "name": "999",
+                            "pinyin": "其他",
+                            "type": "0",
+                            "value": {
+                                "value": "999",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "2205",
+                            "name": "蒙王",
+                            "pinyin": "M",
+                            "type": "0",
+                            "value": {
+                                "value": "蒙王",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "946",
+                            "name": "万通",
+                            "pinyin": "W",
+                            "type": "0",
+                            "value": {
+                                "value": "万通",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "276",
+                            "name": "敖东",
+                            "pinyin": "A",
+                            "type": "0",
+                            "value": {
+                                "value": "敖东",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "372",
+                            "name": "辅仁",
+                            "pinyin": "F",
+                            "type": "0",
+                            "value": {
+                                "value": "辅仁",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "1280",
+                            "name": "仲景 ",
+                            "pinyin": "Z",
+                            "type": "0",
+                            "value": {
+                                "value": "仲景 ",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "31",
+                            "name": "九芝堂",
+                            "pinyin": "J",
+                            "type": "0",
+                            "value": {
+                                "value": "九芝堂",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "707",
+                            "name": "信龙",
+                            "pinyin": "X",
+                            "type": "0",
+                            "value": {
+                                "value": "信龙",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "103",
+                            "name": "以岭",
+                            "pinyin": "Y",
+                            "type": "0",
+                            "value": {
+                                "value": "以岭",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "1107",
+                            "name": "金诃",
+                            "pinyin": "J",
+                            "type": "0",
+                            "value": {
+                                "value": "金诃",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "1138",
+                            "name": "羚锐",
+                            "pinyin": "L",
+                            "type": "0",
+                            "value": {
+                                "value": "羚锐",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "115",
+                            "name": "亚宝",
+                            "pinyin": "Y",
+                            "type": "0",
+                            "value": {
+                                "value": "亚宝",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "174",
+                            "name": "立效",
+                            "pinyin": "L",
+                            "type": "0",
+                            "value": {
+                                "value": "立效",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "2332",
+                            "name": "紫鑫",
+                            "pinyin": "Z",
+                            "type": "0",
+                            "value": {
+                                "value": "紫鑫",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "288",
+                            "name": "白敬宇",
+                            "pinyin": "B",
+                            "type": "0",
+                            "value": {
+                                "value": "白敬宇",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "79",
+                            "name": "元和",
+                            "pinyin": "Y",
+                            "type": "0",
+                            "value": {
+                                "value": "元和",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "123",
+                            "name": "湘江",
+                            "pinyin": "X",
+                            "type": "0",
+                            "value": {
+                                "value": "湘江",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "154",
+                            "name": "三金",
+                            "pinyin": "S",
+                            "type": "0",
+                            "value": {
+                                "value": "三金",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "21",
+                            "name": "佛慈",
+                            "pinyin": "F",
+                            "type": "0",
+                            "value": {
+                                "value": "佛慈",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "258",
+                            "name": "TASLY/天士力",
+                            "pinyin": "T",
+                            "type": "0",
+                            "value": {
+                                "value": "TASLY/天士力",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "28",
+                            "name": "康缘",
+                            "pinyin": "K",
+                            "type": "0",
+                            "value": {
+                                "value": "康缘",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "69",
+                            "name": "云鹏",
+                            "pinyin": "Y",
+                            "type": "0",
+                            "value": {
+                                "value": "云鹏",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "729",
+                            "name": "一正",
+                            "pinyin": "Y",
+                            "type": "0",
+                            "value": {
+                                "value": "一正",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "172",
+                            "name": "鲁南",
+                            "pinyin": "L",
+                            "type": "0",
+                            "value": {
+                                "value": "鲁南",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "601",
+                            "name": "沈阳红药",
+                            "pinyin": "S",
+                            "type": "0",
+                            "value": {
+                                "value": "沈阳红药",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "71",
+                            "name": "云丰",
+                            "pinyin": "Y",
+                            "type": "0",
+                            "value": {
+                                "value": "云丰",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "120",
+                            "name": "信谊",
+                            "pinyin": "X",
+                            "type": "0",
+                            "value": {
+                                "value": "信谊",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "167",
+                            "name": "马应龙",
+                            "pinyin": "M",
+                            "type": "0",
+                            "value": {
+                                "value": "马应龙",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "178",
+                            "name": "乐家老铺",
+                            "pinyin": "L",
+                            "type": "0",
+                            "value": {
+                                "value": "乐家老铺",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "216",
+                            "name": "本草纲目",
+                            "pinyin": "B",
+                            "type": "0",
+                            "value": {
+                                "value": "本草纲目",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "218",
+                            "name": "百灵鸟",
+                            "pinyin": "B",
+                            "type": "0",
+                            "value": {
+                                "value": "百灵鸟",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "1014",
+                            "name": "世一堂 ",
+                            "pinyin": "S",
+                            "type": "0",
+                            "value": {
+                                "value": "世一堂 ",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "160",
+                            "name": "普济堂",
+                            "pinyin": "P",
+                            "type": "0",
+                            "value": {
+                                "value": "普济堂",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "1618",
+                            "name": "云丰",
+                            "pinyin": "Y",
+                            "type": "0",
+                            "value": {
+                                "value": "云丰",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "163",
+                            "name": "宁新宝",
+                            "pinyin": "N",
+                            "type": "0",
+                            "value": {
+                                "value": "宁新宝",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "1676",
+                            "name": "云昆",
+                            "pinyin": "Y",
+                            "type": "0",
+                            "value": {
+                                "value": "云昆",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "205",
+                            "name": "东药",
+                            "pinyin": "D",
+                            "type": "0",
+                            "value": {
+                                "value": "东药",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "49",
+                            "name": "中联",
+                            "pinyin": "Z",
+                            "type": "0",
+                            "value": {
+                                "value": "中联",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "518",
+                            "name": "茂祥",
+                            "pinyin": "M",
+                            "type": "0",
+                            "value": {
+                                "value": "茂祥",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "723",
+                            "name": "杨济生",
+                            "pinyin": "Y",
+                            "type": "0",
+                            "value": {
+                                "value": "杨济生",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "7",
+                            "name": "万通",
+                            "pinyin": "W",
+                            "type": "0",
+                            "value": {
+                                "value": "万通",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "1139",
+                            "name": "樱花牌 ",
+                            "pinyin": "Y",
+                            "type": "0",
+                            "value": {
+                                "value": "樱花牌 ",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "1217",
+                            "name": "云南白药 ",
+                            "pinyin": "Y",
+                            "type": "0",
+                            "value": {
+                                "value": "云南白药 ",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "300",
+                            "name": "碑林",
+                            "pinyin": "B",
+                            "type": "0",
+                            "value": {
+                                "value": "碑林",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "415",
+                            "name": "吉春黄金",
+                            "pinyin": "J",
+                            "type": "0",
+                            "value": {
+                                "value": "吉春黄金",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "426",
+                            "name": "健民",
+                            "pinyin": "J",
+                            "type": "0",
+                            "value": {
+                                "value": "健民",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "437",
+                            "name": "金马",
+                            "pinyin": "J",
+                            "type": "0",
+                            "value": {
+                                "value": "金马",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "445",
+                            "name": "晶珠",
+                            "pinyin": "J",
+                            "type": "0",
+                            "value": {
+                                "value": "晶珠",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "672",
+                            "name": "五景",
+                            "pinyin": "W",
+                            "type": "0",
+                            "value": {
+                                "value": "五景",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "91",
+                            "name": "银诺克",
+                            "pinyin": "Y",
+                            "type": "0",
+                            "value": {
+                                "value": "银诺克",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "175",
+                            "name": "力生",
+                            "pinyin": "L",
+                            "type": "0",
+                            "value": {
+                                "value": "力生",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "186",
+                            "name": "金爵",
+                            "pinyin": "J",
+                            "type": "0",
+                            "value": {
+                                "value": "金爵",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "483",
+                            "name": "雷允上",
+                            "pinyin": "L",
+                            "type": "0",
+                            "value": {
+                                "value": "雷允上",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "680",
+                            "name": "希尔安",
+                            "pinyin": "X",
+                            "type": "0",
+                            "value": {
+                                "value": "希尔安",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "785",
+                            "name": "雷氏",
+                            "pinyin": "L",
+                            "type": "0",
+                            "value": {
+                                "value": "雷氏",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "810",
+                            "name": "江中",
+                            "pinyin": "J",
+                            "type": "0",
+                            "value": {
+                                "value": "江中",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "1085",
+                            "name": "龙潭山 ",
+                            "pinyin": "L",
+                            "type": "0",
+                            "value": {
+                                "value": "龙潭山 ",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "135",
+                            "name": "天方",
+                            "pinyin": "T",
+                            "type": "0",
+                            "value": {
+                                "value": "天方",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "162",
+                            "name": "鹏鹞",
+                            "pinyin": "P",
+                            "type": "0",
+                            "value": {
+                                "value": "鹏鹞",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "228",
+                            "name": "SHINEWAY/神威药业",
+                            "pinyin": "S",
+                            "type": "0",
+                            "value": {
+                                "value": "SHINEWAY/神威药业",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "245",
+                            "name": "HWA/恩华",
+                            "pinyin": "E",
+                            "type": "0",
+                            "value": {
+                                "value": "HWA/恩华",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "351",
+                            "name": "东方金宝",
+                            "pinyin": "D",
+                            "type": "0",
+                            "value": {
+                                "value": "东方金宝",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "411",
+                            "name": "汇仁",
+                            "pinyin": "H",
+                            "type": "0",
+                            "value": {
+                                "value": "汇仁",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "417",
+                            "name": "济民可信",
+                            "pinyin": "J",
+                            "type": "0",
+                            "value": {
+                                "value": "济民可信",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "578",
+                            "name": "瑞龙",
+                            "pinyin": "R",
+                            "type": "0",
+                            "value": {
+                                "value": "瑞龙",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "726",
+                            "name": "药信",
+                            "pinyin": "Y",
+                            "type": "0",
+                            "value": {
+                                "value": "药信",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "1359",
+                            "name": "辰欣",
+                            "pinyin": "C",
+                            "type": "0",
+                            "value": {
+                                "value": "辰欣",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "1365",
+                            "name": "乐家老铺 ",
+                            "pinyin": "L",
+                            "type": "0",
+                            "value": {
+                                "value": "乐家老铺 ",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "165",
+                            "name": "民生",
+                            "pinyin": "M",
+                            "type": "0",
+                            "value": {
+                                "value": "民生",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "1706",
+                            "name": "百灵鸟",
+                            "pinyin": "B",
+                            "type": "0",
+                            "value": {
+                                "value": "百灵鸟",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "1739",
+                            "name": "泰康",
+                            "pinyin": "T",
+                            "type": "0",
+                            "value": {
+                                "value": "泰康",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "1858",
+                            "name": "昆中",
+                            "pinyin": "K",
+                            "type": "0",
+                            "value": {
+                                "value": "昆中",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "193",
+                            "name": "胡庆余堂",
+                            "pinyin": "H",
+                            "type": "0",
+                            "value": {
+                                "value": "胡庆余堂",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "2475",
+                            "name": "同仁堂",
+                            "pinyin": "T",
+                            "type": "0",
+                            "value": {
+                                "value": "同仁堂",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "250",
+                            "name": "KL/科伦",
+                            "pinyin": "K",
+                            "type": "0",
+                            "value": {
+                                "value": "KL/科伦",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "2849",
+                            "name": "真匠",
+                            "pinyin": "Z",
+                            "type": "0",
+                            "value": {
+                                "value": "真匠",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "3378",
+                            "name": "华南牌",
+                            "pinyin": "H",
+                            "type": "0",
+                            "value": {
+                                "value": "华南牌",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "338",
+                            "name": "德众",
+                            "pinyin": "D",
+                            "type": "0",
+                            "value": {
+                                "value": "德众",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "481",
+                            "name": "乐宁",
+                            "pinyin": "L",
+                            "type": "0",
+                            "value": {
+                                "value": "乐宁",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "482",
+                            "name": "乐仁堂",
+                            "pinyin": "L",
+                            "type": "0",
+                            "value": {
+                                "value": "乐仁堂",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "575",
+                            "name": "荣昌",
+                            "pinyin": "R",
+                            "type": "0",
+                            "value": {
+                                "value": "荣昌",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "599",
+                            "name": "神奇",
+                            "pinyin": "S",
+                            "type": "0",
+                            "value": {
+                                "value": "神奇",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "605",
+                            "name": "世贸天阶",
+                            "pinyin": "S",
+                            "type": "0",
+                            "value": {
+                                "value": "世贸天阶",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "643",
+                            "name": "天龙",
+                            "pinyin": "T",
+                            "type": "0",
+                            "value": {
+                                "value": "天龙",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "650",
+                            "name": "天天乐",
+                            "pinyin": "T",
+                            "type": "0",
+                            "value": {
+                                "value": "天天乐",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "654",
+                            "name": "同济堂",
+                            "pinyin": "T",
+                            "type": "0",
+                            "value": {
+                                "value": "同济堂",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "1121",
+                            "name": "颐圣",
+                            "pinyin": "Y",
+                            "type": "0",
+                            "value": {
+                                "value": "颐圣",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "161",
+                            "name": "平康",
+                            "pinyin": "P",
+                            "type": "0",
+                            "value": {
+                                "value": "平康",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "2045",
+                            "name": "欧意",
+                            "pinyin": "O",
+                            "type": "0",
+                            "value": {
+                                "value": "欧意",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "236",
+                            "name": "CONBA/康恩贝",
+                            "pinyin": "K",
+                            "type": "0",
+                            "value": {
+                                "value": "CONBA/康恩贝",
+                                "key": "品牌"
+                            }
+                        },
+                        {
+                            "id": "2639",
+                            "name": "东泰",
+                            "pinyin": "D",
+                            "type": "0",
+                            "value": {
+                                "value": "东泰",
+                                "key": "品牌"
+                            }
+                        }
+                    ],
+                    "key": "brand"
+                },
+                {
+                    "classfly": "产地",
+                    "id": "",
+                    "itemArray": [
+                        {
+                            "id": "",
+                            "name": "国产",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "国产",
+                                "key": "产地"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "进口",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "进口",
+                                "key": "产地"
+                            }
+                        }
+                    ],
+                    "key": "expandName"
+                },
+                {
+                    "classfly": "用法",
+                    "id": "",
+                    "itemArray": [
+                        {
+                            "id": "",
+                            "name": "口服",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "口服",
+                                "key": "用法"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "皮肤外用",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "皮肤外用",
+                                "key": "用法"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "滴眼",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "滴眼",
+                                "key": "用法"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "阴道给药",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "阴道给药",
+                                "key": "用法"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "直肠给药",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "直肠给药",
+                                "key": "用法"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "经鼻吸入",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "经鼻吸入",
+                                "key": "用法"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "滴鼻",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "滴鼻",
+                                "key": "用法"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "滴耳",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "滴耳",
+                                "key": "用法"
+                            }
+                        }
+                    ],
+                    "key": "expandName"
+                },
+                {
+                    "classfly": "产品剂型",
+                    "id": "",
+                    "itemArray": [
+                        {
+                            "id": "",
+                            "name": "片剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "片剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "胶囊",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "胶囊",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "丸剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "丸剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "颗粒",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "颗粒",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "口服液",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "口服液",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "软膏剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "软膏剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "外用液体剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "外用液体剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "滴眼剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "滴眼剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "栓剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "栓剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "贴剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "贴剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "吸入剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "吸入剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "口服散剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "口服散剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "凝胶剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "凝胶剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "粉剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "粉剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "喷雾剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "喷雾剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "外用散剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "外用散剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "硬膏剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "硬膏剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "滴耳剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "滴耳剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "冲剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "冲剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "滴鼻剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "滴鼻剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "气雾剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "气雾剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "滴剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "滴剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "果棒剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "果棒剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "袋泡茶剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "袋泡茶剂",
+                                "key": "产品剂型"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "外用湿巾",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "外用湿巾",
+                                "key": "产品剂型"
+                            }
+                        }
+                    ],
+                    "key": "expandName"
+                },
+                {
+                    "classfly": "适用人群",
+                    "id": "",
+                    "itemArray": [
+                        {
+                            "id": "",
+                            "name": "成人",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "成人",
+                                "key": "适用人群"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "不限",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "不限",
+                                "key": "适用人群"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "女性",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "女性",
+                                "key": "适用人群"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "男性",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "男性",
+                                "key": "适用人群"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "中老年",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "中老年",
+                                "key": "适用人群"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "儿童",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "儿童",
+                                "key": "适用人群"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "孕产妇",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "孕产妇",
+                                "key": "适用人群"
+                            }
+                        }
+                    ],
+                    "key": "expandName"
+                },
+                {
+                    "classfly": "药品类别",
+                    "id": "",
+                    "itemArray": [
+                        {
+                            "id": "",
+                            "name": "中成药",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "中成药",
+                                "key": "药品类别"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "化学药",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "化学药",
+                                "key": "药品类别"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "复方制剂",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "复方制剂",
+                                "key": "药品类别"
+                            }
+                        },
+                        {
+                            "id": "",
+                            "name": "生物制品",
+                            "pinyin": "",
+                            "type": "0",
+                            "value": {
+                                "value": "生物制品",
+                                "key": "药品类别"
+                            }
+                        }
+                    ],
+                    "key": "expandName"
+                }
+            ]
+        },
+        "goodsInfo": [
+            {
+                "code": "GWM0200120",
+                "costPrice": "94.30",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0200120_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8038",
+                "isSingle": 2,
+                "name": "康缘 腰痹通胶囊 0.42g*100粒/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0200120/gcg8038201603181250508ab3e253535a9b9b0153880fcee50fd0.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "68.00",
+                "spec": [
+                    
+                ],
+                "title": "活血化瘀，行气止痛，腰椎间盘突出专科用药"
+            },
+            {
+                "code": "GWM0200121",
+                "costPrice": "75.80",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0200121_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8039",
+                "isSingle": 2,
+                "name": "福善美 阿仑膦酸钠片 70mg*1片/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0200121/gcg8039201603181253038ab3e253535a9b9b01538811d3b40fd9.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "65.00",
+                "spec": [
+                    
+                ],
+                "title": "提高骨密度，减少骨折率【4盒63/盒】"
+            },
+            {
+                "code": "GWM0200122",
+                "costPrice": "4.20",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0200122_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8040",
+                "isSingle": 2,
+                "name": "中大 双氯芬酸钠缓释片(Ⅰ) 0.1g*10片/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0200122/gcg8040201512011706318ab3e253515b800f01515ccb1359022f.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "6.00",
+                "spec": [
+                    
+                ],
+                "title": "镇痛消炎，用于各类疼痛，如风湿性关节炎、肩周炎等"
+            },
+            {
+                "code": "GWM0400123",
+                "costPrice": "25.30",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0400123_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8041",
+                "isSingle": 2,
+                "name": "BF 奥络 夫西地酸乳膏 10g*1支/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0400123/gcg8041201603181348428ab3e253535a9b9b01538844c6b3110d.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "24.00",
+                "spec": [
+                    
+                ],
+                "title": "适用于各种细菌性皮肤感染，如脓疱病，毛囊炎，甲沟炎，须疮，汗腺炎，红癣，寻常痤疮，创伤、湿疹、溃疡合并感染等。"
+            },
+            {
+                "code": "GWM0100125",
+                "costPrice": "28.00",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0100125_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8043",
+                "isSingle": 2,
+                "name": "胡庆余堂 胃复春片 0.36g*80片/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0100125/gcg8043201603171801218ab3e253535a9b9b01538405bcc70e11.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "29.00",
+                "spec": [
+                    
+                ],
+                "title": "用于治疗胃癌癌前期病变、胃癌手术后辅助治疗、慢性浅表性胃炎属脾胃虚弱病者"
+            },
+            {
+                "code": "GWM0100126",
+                "costPrice": "5.20",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0100126_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8044",
+                "isSingle": 2,
+                "name": "光辉 呋塞米片 20mg*100片",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0100126/gcg8044201512011715448ab3e253515b800f01515cd383780249.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "8.60",
+                "spec": [
+                    
+                ],
+                "title": "1.水肿性疾病。2.高血压。3.预防急性肾功能衰竭。4.高钾血症及高钙血症。5.稀释性低钠血症。6.抗利尿激素分泌过多症。7.急性药物毒物中毒。"
+            },
+            {
+                "code": "GWM0100127",
+                "costPrice": "5.00",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0100127_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8045",
+                "isSingle": 2,
+                "name": "老专家 腰息痛胶囊 0.3g*24粒/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0100127/gcg8045201512021251338ab3e253515d95cf01516108005b010a.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "5.00",
+                "spec": [
+                    
+                ],
+                "title": "用于腰椎炎、胸椎炎、颈椎炎、坐骨神经痛和风湿患者"
+            },
+            {
+                "code": "GWM0100128",
+                "costPrice": "120.00",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0100128_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8046",
+                "isSingle": 2,
+                "name": "同仁堂 同仁牛黄清心丸 3g*10S",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0100128/gcg8046201603171803318ab3e253535a9b9b01538407b6450e1f.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "90.00",
+                "spec": [
+                    
+                ],
+                "title": "中风,口眼歪斜,半身不遂,言语不清【15盒约为3个月的量】"
+            },
+            {
+                "code": "GWM0100129",
+                "costPrice": "28.50",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0100129_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8047",
+                "isSingle": 2,
+                "name": "健兴 肺力咳合剂 100ml*1瓶/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0100129/gcg8047201512011724278ab3e253515b800f01515cdb7d8c0260.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "22.00",
+                "spec": [
+                    
+                ],
+                "title": "清热解毒，镇咳祛痰。用于痰热犯肺所引起的咳嗽痰黄，支气管哮喘，气管炎"
+            },
+            {
+                "code": "GWM0300130",
+                "costPrice": "10.10",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0300130_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8048",
+                "isSingle": 2,
+                "name": "九芝堂 小金丸 0.6g*4瓶/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0300130/gcg8048201603181332028ab3e253535a9b9b01538835881a10b3.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "15.00",
+                "spec": [
+                    
+                ],
+                "title": "用于多发性脓肿，甲状腺结节、淋巴结节、乳腺增生等"
+            },
+            {
+                "code": "GWM0400131",
+                "costPrice": "28.00",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0400131_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8049",
+                "isSingle": 2,
+                "name": "重庆华邦 力言卓 地奈德乳膏 15g*1支/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0400131/gcg8049201603181349308ab3e253535a9b9b0153884584e11112.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "28.20",
+                "spec": [
+                    
+                ],
+                "title": "用于皮炎、湿疹、银屑病、扁平苔藓、单纯性苔藓、汗疱症等引起的皮肤炎症和皮肤瘙痒的治疗。安全性高，儿童也可以用药"
+            },
+            {
+                "code": "GWM0100132",
+                "costPrice": "34.80",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0100132_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8050",
+                "isSingle": 2,
+                "name": "修正 通脉颗粒 10g*12袋/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0100132/gcg8050201603171804538ab3e253535a9b9b01538408f6410e2d.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "38.00",
+                "spec": [
+                    
+                ],
+                "title": "用于缺血性心脑血管疾病"
+            },
+            {
+                "code": "GWM0300134",
+                "costPrice": "44.00",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0300134_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8052",
+                "isSingle": 2,
+                "name": "紫辰宣 夏枯草胶囊 0.35g*40粒/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0300134/gcg8052201603181337468ab3e253535a9b9b0153883ac43910bc.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "43.30",
+                "spec": [
+                    
+                ],
+                "title": "用于火热内蕴所致的头痛，眩晕，瘰疬，瘿瘤，乳痈肿痛；甲状腺肿大，淋巴结核，乳腺增生病，高血压病见上述证候者"
+            },
+            {
+                "code": "GWM0100135",
+                "costPrice": "4.50",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0100135_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8053",
+                "isSingle": 2,
+                "name": "SHINEWAY/神威药业 酚氨咖敏颗粒  5g*20袋",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0100135/gcg8053201603171806228ab3e253535a9b9b0153840a53810e35.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "10.50",
+                "spec": [
+                    
+                ],
+                "title": "用于感冒、发热、头痛、神经痛及风湿痛"
+            },
+            {
+                "code": "GWM0100136",
+                "costPrice": "7.20",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0100136_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8054",
+                "isSingle": 2,
+                "name": "先农坛 非洛地平片 5mg*28片/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0100136/gcg8054201512011746548ab3e253515b800f01515cf00e8902c7.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "7.20",
+                "spec": [
+                    
+                ],
+                "title": "用于轻、中度原发性高血压的治疗"
+            },
+            {
+                "code": "GWM0200137",
+                "costPrice": "7.00",
+                "detailUrl": "http://www.yao123.com/productDetail/GWM0200137_1",
+                "goodsTypeTarget": 0,
+                "goodtype": 1,
+                "id": "8055",
+                "isSingle": 2,
+                "name": "迪根 双氯芬酸钠缓释片 0.1g*12片/盒",
+                "nameStr": "",
+                "packageInfo": [
+                    
+                ],
+                "picture": "gc/GWM0200137/gcg8055201603181257288ab3e253535a9b9b01538815e2100fe8.jpg",
+                "priceType": 1,
+                "promotionDescList": [
+                    
+                ],
+                "promotionPrice": "0.00",
+                "sellPrice": "6.80",
+                "spec": [
+                    
+                ],
+                "title": "用于类风湿性关节炎,风湿性关节炎,骨关节炎"
+            }
+        ],
+        "pageNum": "1",
+        "searchInfo": {
+            "filterInfo": {
+                "brand": "",
+                "price": "",
+                "spec": ""
+            },
+            "keyWord": "",
+            "order": "",
+            "pageNum": 0,
+            "pageSize": 0,
+            "sort": "",
+            "tlevel1": "7|中西药品",
+            "tlevel2": "",
+            "tlevel3": ""
+        },
+        "searchText": "中西药品(8197)",
+        "totalNum": "8197",
+        "totalPageNum": "1025",
+        "typeInfo": [
+            
+        ]
+    },
+    "msg": "",
+    "rethost": "",
+    "status": 0
+}
