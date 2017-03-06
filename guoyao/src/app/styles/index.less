@@ -1,0 +1,213 @@
+@mainWidth:100%;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+#wrap{
+    width: @mainWidth;
+    font-family: "微软雅黑";
+    .header{
+        background: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: @mainWidth;
+        display: flex;
+        justify-content: space-between;
+        z-index: 99;
+        img{
+            width: 8vw;
+            height: 8vw;
+            margin: 1vh 2vw 1vh 2vw;
+        }
+        form{
+            background: #fff;
+            width: 72vw;
+            height: 5vh;
+            display: flex;
+            flex-direction: row;
+            border-radius: 0.5rem;
+            margin-top: 1vh;
+            img{
+                width: 5vw;
+                height: 5vw;
+                margin: 1.7vw 3vw 0 3vw;
+            }
+            input{
+                width: 60vw;
+                height: 5vh;
+                font-size: 4vw;
+                border: 0;
+            }
+        }
+    }
+    .swiper-container{
+        z-index: 1;
+        .swiper-slide{
+            img{
+                width: @mainWidth;
+            }
+        }
+        .swiper-pagination-bullet{
+            width: 1.2rem;
+            height: 1.2rem;
+            margin: 0 0.8rem 0.7rem 0.8rem;
+        }
+    }
+    .nav{
+        width: @mainWidth;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 2vh;
+        dl{
+            text-align: center;
+            width: @mainWidth / 3;
+            font-size: 3.8vw;
+            margin-top: 2vh;
+            img{
+                width: @mainWidth / 2.8;
+            }
+        }
+    }
+    .tui{
+        width: @mainWidth;
+        background: #eee;      
+        text-align: center;    
+        padding: 2vh 0;
+        p{
+            width: 30vw;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            font-size: 4vw;
+            img{
+                width: 6vw;
+                height: 6vw;
+                margin-right: 4vw;
+            }
+        }
+        
+    }
+    .main{
+        width: @mainWidth;
+        .names{
+            img{
+                width: 25rem;
+                margin: 1.5vh 0 1.3vh 4vw;
+            }
+        }
+        .dls{
+            width: @mainWidth;
+            display: flex;
+            flex-wrap: wrap;
+            dl{
+                position: relative;
+                width: 46%;
+                margin: 0 0 2rem 1.5rem;
+                border: 0.1rem solid #aaa;
+                dt{
+                    text-align: center;
+                    img{
+                        width: @mainWidth / 1.5;
+                    }
+                }
+                dd{
+                    width: @mainWidth / 1.5;
+                    height: 5vh;
+                    overflow: hidden;
+                }
+                .dd1{
+                    font-size: 3.6vw;
+                    margin: 0 0 4vh 5vw;
+                }
+                .dd2{
+                    font-size: 5vw;
+                    color: red;
+                    margin: 0 0 1.5vh 4.5vw;
+                }
+                a{
+                    width: @mainWidth;
+                    height: 100%;
+                    display: block;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+            }
+        }
+    }
+    .footer{
+        background: #eee;
+        margin-bottom: 8.8vh;
+        padding-bottom: 3.5vh;
+        p{
+            width: @mainWidth * 0.95;
+            margin: 0 auto;
+            font-size: 3.6vw;
+            span{
+                color: #999;
+            }
+        }
+        .p1{
+            text-align: center;
+            line-height: 3.8vh;
+        }
+    }
+    .feet{
+        width: @mainWidth;
+        height: 8.8vh;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        background: #fff;
+        display: flex;
+        flex-direction: row;
+        dl{
+            margin-top: 1vh;
+            width: @mainWidth / 4;
+            text-align: center;
+            dt{
+                width: @mainWidth;
+                margin-bottom: 0.3vh;
+                img{
+                    width: @mainWidth /3.2;
+                }
+            }
+            dd{
+                width: @mainWidth;
+                font-size: 2.6vw;
+            }
+        }
+        .shop{
+                position: absolute;
+                right: @mainWidth * 0.05;
+                top: -4.5vh;
+                width: @mainWidth / 5.5;
+                height: 10vh;
+                background: #fa462d;
+                border-radius: 50%;
+                dt{
+                    margin: 1.8vh 0 0.2vh 0;
+                    img{
+                        width: @mainWidth / 2.5;
+                    }
+                }
+                dd{
+                    color: #fff;
+                    font-size: 3.2vw;
+                    span{
+                        font-size: 3.9vw;
+                        margin-right: 0.4rem;
+                    }
+                }
+            }
+    }
+}

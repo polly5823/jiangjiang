@@ -25,17 +25,7 @@ var less = require('gulp-less');
 //	console.log('第一个任务，任务名字是default');
 //});
 
-//js压缩
-/*gulp.task('js',function(){
-//	第一步:去读取我将要压缩的代码
-	gulp.src('src/app/scripts/*.js')
-//	第二步:将读取到的js代码进行压缩
-	.pipe(uglify({preserveComments:'some'}))
-//	第三步:将压缩过的js代码保存到哪个文件夹中
-	.pipe(gulp.dest('dist/src/app/scripts'))
-});*/
 
-//js合并压缩
 gulp.task('jscon',function(){
 //	第一步:去读取我将要压缩的代码
 	gulp.src('src/app/scripts/*.js')
@@ -44,15 +34,6 @@ gulp.task('jscon',function(){
 	.pipe(uglify({preserveComments:'some'}))
 //	第三步:将压缩过的js代码保存到哪个文件夹中
 	.pipe(gulp.dest('dist/src/app/scripts'))
-	.pipe(browserSync.reload({
-      stream: true
-    }));
-});
-
-gulp.task('jscon2',function(){
-	gulp.src('src/app/scripts/lib/*.js')
-	.pipe(uglify({preserveComments:'some'}))
-	.pipe(gulp.dest('dist/src/app/scripts/lib'))
 	.pipe(browserSync.reload({
       stream: true
     }));
@@ -106,6 +87,25 @@ gulp.task('html',function(){
     }));
 });
 
+gulp.task('html2',function(){
+	var options = {
+		removeComments : true,//清除HTML注释
+		collapseWhitespace : true,//压缩HTML
+		collapseBolleanAttributes : true,//省略布尔属性值 <input check="true">
+		removeEmptyArributes : true,//删除所有空格作属性值
+		removeScriptTypeAttributes : true,
+		removeStyleLinkTypeAttributes : true,
+		minifyJS : true,
+		minifyCSS : true,
+	}
+	gulp.src('src/app/views/*.html')
+	.pipe(htmlmin(options))
+	.pipe(gulp.dest('dist/src/app/views'))
+	.pipe(browserSync.reload({
+      stream: true
+    }));
+});
+
 
 gulp.task('servers',function(){
 	browserSync({
@@ -116,13 +116,13 @@ gulp.task('servers',function(){
 	
 	//如果index.html发生改变时，去执行html文件(压缩过的)
 	gulp.watch('src/app/index.html',['html']);
+	gulp.watch('src/app/views/*.html',['html2']);
 	gulp.watch('src/app/styles/*.less',['style']);
 	gulp.watch('src/app/scripts/*.js',['jscon']);
-	gulp.watch('src/app/scripts/lib/*.js',['jscon2']);
 });
 
 
 
 //设置一个主任务来执行多个子任务
-gulp.task('mainTask',['html','jscon','jscon2','style','imagesi','servers']);
+gulp.task('mainTask',['html','html2','jscon','style','imagesi','servers']);
 
