@@ -43,7 +43,8 @@ li{
             }
             input{
                 width: 60vw;
-                height: 5vh;
+                height: 4.8vh;
+                margin-top: 0.1vh;
                 font-size: 4vw;
                 border: 0;
             }
@@ -170,15 +171,30 @@ li{
         background: #fff;
         display: flex;
         flex-direction: row;
+        .active{
+            color: #fa462d;
+            .img1{
+                display: none;
+            }
+            .img2{
+                display: inline-block;
+            }
+        }
         dl{
-            margin-top: 1vh;
+            margin-top: 1.3vh;
             width: @mainWidth / 4;
             text-align: center;
             dt{
                 width: @mainWidth;
                 margin-bottom: 0.3vh;
                 img{
-                    width: @mainWidth /3.2;
+                    width: @mainWidth /3.8;
+                }
+                .img1{
+                    display: inline-block;
+                }
+                .img2{
+                    display: none;
                 }
             }
             dd{
@@ -207,6 +223,13 @@ li{
                         font-size: 3.9vw;
                         margin-right: 0.4rem;
                     }
+                }
+                a{
+                    width: @mainWidth;
+                    height: 100%;
+                    position: absolute; 
+                    left: 0;
+                    bottom: 0;
                 }
             }
     }

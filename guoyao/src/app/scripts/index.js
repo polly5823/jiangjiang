@@ -7,6 +7,12 @@ myApp.config(['$routeProvider','$locationProvider',function($routeProvider,$loca
 			controller:"hCtrl",
 			templateUrl:"views/home.html"
 		})
+		.when("/category_list",{
+			templateUrl:"views/category_list.html"
+		})
+		.when("/search",{
+			templateUrl:"views/search.html"
+		})
 		.otherwise({
 			redirectTo:'/home'
 		})
@@ -28,12 +34,13 @@ myApp.controller('hCtrl',['$scope','$http',function($scope,$http){
 		$scope.data8 = a.yin_data;
 		$scope.data9 = a.like_data;
 	});
-}])
+}]);
 
 
 
 
 //导航变色
-function navChange (){
-	
-}navChange()
+$(".ft").click(function(){
+	$(this).addClass("active").siblings().removeClass("active"); 
+});
+

@@ -1,0 +1,107 @@
+@mainWidth:100%;
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+
+.headers{
+    width: @mainWidth;
+    height: 7.5vh;
+    background: #efefef;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    form{
+        background: #fff;
+        width: 78vw;
+        height: 5vh;
+        display: flex;
+        flex-direction: row;
+        border-radius: 0.5rem;
+        margin: 1vh 0 0 4vw;
+        border: 0.1rem solid #aaa;
+        img{
+            width: 5vw;
+            height: 5vw;
+            margin: 1.7vw 3vw 0 3vw;
+        }
+        input{
+            width: 60vw;
+            height: 5vh;
+            font-size: 4vw;
+            border: 0;
+        }
+    }
+    button{
+        width: 12vw;
+        height: 5.2vh;
+        margin: 0.9vh 0 0 1.2vw;
+        font-size: 4vw;
+        border: 0;
+        background: #fa462d;
+        color: #fff;
+        border-radius: 0.5rem;
+    }
+}
+.left{
+    width: 26vw;
+    height: 83.7vh;
+    background: #EFEFEF;
+    position: absolute;
+    left: 0;
+    top: 7.5vh;
+    overflow: auto;
+    li{
+        width: 26vw;
+        padding: 3.5vh 0 3.5vh 3vw;
+        font-size: 3.5vw;
+        border-bottom: 0.1rem solid #ccc;
+    }
+    .cur{
+        background: #fff;
+        border-left: 0.5rem solid #fa462d;
+        color: #FA462D;
+    }
+}
+.right{
+    width: 74vw;
+    height: 83.7vh;
+    position: absolute;
+    right: 0;
+    top: 7.5vh;
+    overflow: auto;
+    .category-items{
+        display: none;
+    }
+    dl{
+        width: @mainWidth;
+        font-size: 3.6vw;
+        dt{
+            margin: 2vh 0 2vh 4vw;
+        }
+        dd{
+            width: @mainWidth;
+            .itemlist{
+                display: flex;
+                flex-wrap: wrap;
+                li{
+                    text-align: center;
+                    width: @mainWidth / 3;
+                    margin-bottom: 2vh;
+                    img{
+                        width: @mainWidth * 0.75;
+                        margin-bottom: 1vh;
+                    }
+                }
+            }
+        }
+    }
+}
