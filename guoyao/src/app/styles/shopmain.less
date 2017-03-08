@@ -1,0 +1,120 @@
+@mainWidth:100%;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.headers{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: @mainWidth;
+        margin: 0 auto;
+        height: 7.5vh;
+        display: flex;
+        justify-content: space-between;
+        background: #eee;
+        p:nth-child(1){
+            margin: 1.5vh 0 0 2vw;
+            img{
+                width: 7vw;
+            }
+        }
+        p:nth-child(2){
+            font-size: 3.8vw;
+            margin-top: 2.4vh;
+            color: #999;
+        }
+        p:nth-child(3){
+            font-size: 5vw;
+            margin: 1.5vh 2vw 0 0; 
+            font-weight: bold;
+        }
+    }
+    .navs{
+        display: none;
+        position: absolute;
+        top: 6.8vh;
+        right: 2vw;
+        width: 38vw;
+        background: rgba(0,0,0,0.5);
+        z-index: 9;
+        li{
+            width: @mainWidth * 0.8;
+            margin: 0 auto;
+            border-bottom: 0.2rem solid #ccc;
+            a{
+                color: #fff;
+                font-size: 4vw;
+                display: flex;
+                flex-direction: row;
+                padding: 1.7vh;
+                span{
+                    padding-top: 0.3vh;
+                }
+                img{
+                    width: 5.5vw;
+                    height: 5.5vw;
+                    margin-right: 2vw;
+                }
+            }
+            
+        }
+    }
+    .feeter{
+        width: @mainWidth;
+        height: 8.8vh;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.55);
+        display: flex;
+        flex-direction: row;
+        .ft{
+            margin-top: 1vh;
+            width: @mainWidth / 5.5;
+            text-align: center;
+            dt{
+                margin-bottom: 0.5vh;
+                img{
+                    width: @mainWidth / 3;
+                }
+            }
+            dd{
+                font-size: 3vw;
+                color: #fff;
+            }
+        }
+        .shop{
+            position: relative;
+            .num{
+                display: inline-block;
+                background: #FA462D;
+                color: #fff;
+                position: absolute;
+                right: 2vw;
+                top: -0.5vh;
+                font-size: 3vw;
+                width: 4vw;
+                text-align: center;
+                border-radius: 50%;
+            }
+        }
+        .add{
+            width: @mainWidth * 0.27;
+            text-align: center;
+            line-height: 8vh;
+            margin-left: 0.7vw;
+            height: 100%;
+            background: #FA462D;
+            color: #fff;
+            font-size: 4.2vw;
+        }
+    }

@@ -60,11 +60,15 @@ li{
     display: flex;
     justify-content: space-between;
     font-size: 3.8vw;
+    border-bottom: 0.1rem solid #ccc;
     p{
         margin: 0 3vw;
         line-height: 7vh;
         span{
             margin-right: 5vw;
+        }
+        .col{
+            color: #FA462D;
         }
     }
 }
@@ -114,6 +118,80 @@ li{
         }
     }
 }
+.boxes{
+    width: @mainWidth;
+    position: fixed;
+    left: 0;
+    top: 14.5vh;
+    z-index: 999;
+    font-size: 4vw;
+    .yc2{
+        display: none;
+        width: @mainWidth;
+        height: 77.7vh;
+        background: rgba(0,0,0,0.3);
+        ul{
+            width: @mainWidth;
+            background: #fff;
+            height: 18.2vh;
+            li{
+                padding: 1.5vh 0;
+                margin-left: 4vw;
+                border-bottom: 0.1rem solid #ccc;
+                color: #999;
+            }
+        }
+    }
+    .yc{
+        width: @mainWidth;
+        height: 77.7vh;
+        background: rgba(0,0,0,0.3);
+        display: none;
+        .left{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: @mainWidth * 0.3;
+            height: 30vh;
+            overflow: auto;
+            background: #f5f5f5;
+            .nav-left{
+                li{
+                    text-align: center;
+                    padding: 1.5vh 0;
+                    color: #444;
+                }
+                .cur{
+                    background: #fff;
+                    color: #FA462D;
+                }
+            }
+        }
+        .right{
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: @mainWidth * 0.7;
+            height: 30vh;
+            background: #fff;
+            overflow: auto;
+            .category-items{
+                display: none;
+            }
+            ul{
+                li{
+                    margin-left: 5vw;
+                    padding: 1.5vh 0;
+                    a{
+                        color: #444;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
 .feet{
     width: @mainWidth;
     height: 8.8vh;
@@ -123,6 +201,7 @@ li{
     background: #fff;
     display: flex;
     flex-direction: row;
+    z-index: 9999;
     .active{
         color: #fa462d;
         .img1{

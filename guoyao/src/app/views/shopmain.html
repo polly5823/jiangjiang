@@ -1,0 +1,44 @@
+<link rel="stylesheet" type="text/css" href="styles/shopmain.css"/>
+<div class="headers">
+	<p><img src="images/back.png" class="back"/></p>
+	<p>药名</p>
+	<p class="but">...</p>
+</div>
+<ul class="navs">
+	<li><a href="#/home"><img src="images/home(2).png"/><span>首页</span></a></li>
+	<li><a href="#/category_list"><img src="images/class(2).png"/><span>分类</span></a></li>
+	<li><a href="#/shop"><img src="images/shop.png"/><span>购物车</span></a></li>
+	<li><a href="#/mine"><img src="images/mine(2).png"/><span>我的</span></a></li>
+</ul>
+<div class="feeter">
+	<dl class="ft">
+		<dt><img src="images/phone.png"/></dt>
+		<dd>电话咨询</dd>
+	</dl>
+	<dl class="ft">
+		<dt><img src="images/service.png"/></a></dt>
+		<dd>客服</dd>
+	</dl>
+	<dl class="ft">
+		<dt><img src="images/like.png"/></dt>
+		<dd>收藏</dd>
+	</dl>
+	<dl class="ft shop">
+		<dt><img src="images/shop.png"/></dt>
+		<dd>购物车</dd>
+		<span class="num">0</span>
+	</dl>
+	<p class="add">加入购物车</p>
+</div>
+<script type="text/javascript">
+	$(".back").click(function(){
+		history.back()
+	})
+	$(".but").click(function(){
+		if($(".navs").css("display") == 'none'){
+			$(".navs").show();
+		}else{
+			$(".navs").hide()
+		}
+	})
+</script>

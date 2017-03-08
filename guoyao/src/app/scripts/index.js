@@ -21,6 +21,10 @@ myApp.config(['$routeProvider','$locationProvider',function($routeProvider,$loca
 			controller:"zxCtrl",
 			templateUrl:"views/zhongxi.html"
 		})
+		.when("/shop",{
+			controller:"shopCtrl",
+			templateUrl:"views/shopmain.html"
+		})
 		.otherwise({
 			redirectTo:'/home'
 		})
@@ -48,12 +52,16 @@ myApp.controller("sCtrl",['$scope',function($scope){
 	$scope.back = function(){
 		history.back()
 	}
-}])
+}]);
 
 myApp.controller("zxCtrl",['$scope','$http',function($scope,$http){
 	$http.get('data/zhongxi.json').success(function(a){
-		$scope.data1 = a.xian_data;
+		$scope.data = a.xian_data;
 	});
+}]);
+
+myApp.controller("shopCtrl",['$scope',function($scope){
+	
 }])
 
 
