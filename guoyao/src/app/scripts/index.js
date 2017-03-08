@@ -11,7 +11,15 @@ myApp.config(['$routeProvider','$locationProvider',function($routeProvider,$loca
 			templateUrl:"views/category_list.html"
 		})
 		.when("/search",{
+			controller:"sCtrl",
 			templateUrl:"views/search.html"
+		})
+		.when("/mine",{
+			templateUrl:"views/mine.html"
+		})
+		.when("/category_7",{
+			controller:"zxCtrl",
+			templateUrl:"views/zhongxi.html"
 		})
 		.otherwise({
 			redirectTo:'/home'
@@ -36,11 +44,23 @@ myApp.controller('hCtrl',['$scope','$http',function($scope,$http){
 	});
 }]);
 
+myApp.controller("sCtrl",['$scope',function($scope){
+	$scope.back = function(){
+		history.back()
+	}
+}])
+
+myApp.controller("zxCtrl",['$scope','$http',function($scope,$http){
+	$http.get('data/zhongxi.json').success(function(a){
+		$scope.data1 = a.xian_data;
+	});
+}])
+
 
 
 
 //导航变色
-$(".ft").click(function(){
-	$(this).addClass("active").siblings().removeClass("active"); 
-});
+//$(".ft").click(function(){
+//	$(this).addClass("active").siblings().removeClass("active"); 
+//});
 

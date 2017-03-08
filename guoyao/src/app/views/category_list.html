@@ -2,7 +2,7 @@
 <div class="headers">
 	<form action="" method="post">
 		<img src="images/search.png" class="jing"/>
-		<input type="text" name="" placeholder="请输入药品名" />
+		<a href="#/search"><input type="text" name="" placeholder="请输入药品名" /></a>
 	</form>
 	<button>搜索</button>
 </div>
@@ -1808,15 +1808,34 @@
                 </ul>
 			</dd>
 		</dl>
-    </div>  
-
-   	
+   </div>  
 </div>
+<div class="feet">
+		<dl class="ft">
+			<dt><a href="#/home"><img src="images/home.png" class="img1"/><img src="images/home(1).png" class="img2"/></a></dt>
+			<dd>首页</dd>
+		</dl>
+		<dl class="ft active">
+			<dt><a href="#/category_list"><img src="images/class.png" class="img1"/><img src="images/class (1).png" class="img2"/></a></dt>
+			<dd>分类</dd>
+		</dl>
+		<dl class="ft">
+			<dt><a href="#/mine"><img src="images/mine.png" class="img1"/><img src="images/mine (1).png" class="img2"/></a></dt>
+			<dd>我的</dd>
+		</dl>
+		<dl class="shop">
+			<dt><img src="images/shop.png"/></dt>
+			<dd><span>0</span>件</dd>
+			<a href="#"></a>
+		</dl>
+	</div>
 <script type="text/javascript">
 	$(".navfilter>li").click(function(){
 		$(this).addClass("cur").siblings().removeClass("cur"); 
 		var a = $(this).index();
 		$(".right>div").eq(a).removeClass("category-items").siblings().addClass("category-items")
 	})
-	
+//	$(".ft").click(function(){
+//		$(this).addClass("active").siblings().removeClass("active"); 
+//	});
 </script>

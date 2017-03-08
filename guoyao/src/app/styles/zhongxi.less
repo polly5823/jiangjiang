@@ -1,0 +1,187 @@
+@mainWidth:100%;
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.headers{
+    width: @mainWidth;
+    height: 7.5vh;
+    background: #efefef;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    form{
+        background: #fff;
+        width: 78vw;
+        height: 5vh;
+        display: flex;
+        flex-direction: row;
+        border-radius: 0.5rem;
+        margin: 1vh 0 0 4vw;
+        border: 0.1rem solid #aaa;
+        img{
+            width: 5vw;
+            height: 5vw;
+            margin: 1.7vw 3vw 0 3vw;
+        }
+        input{
+            width: 60vw;
+            height: 5vh;
+            font-size: 4vw;
+            border: 0;
+        }
+    }
+    button{
+        width: 12vw;
+        height: 5.2vh;
+        margin: 0.9vh 0 0 1.2vw;
+        font-size: 4vw;
+        border: 0;
+        background: #fa462d;
+        color: #fff;
+        border-radius: 0.5rem;
+    }
+}
+.fl{
+    width:@mainWidth;
+    height: 7.5vh;
+    background: #eee;
+    position: absolute;
+    left: 0;
+    top: 7vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3.8vw;
+    p{
+        margin: 0 3vw;
+        line-height: 7vh;
+        span{
+            margin-right: 5vw;
+        }
+    }
+}
+.main{
+    width: @mainWidth;
+    position: absolute;
+    top: 14.5vh;
+    left: 0;
+    height: 85.5vh;
+    overflow: auto;
+    .dls{
+        width: @mainWidth;
+        display: flex;
+        flex-wrap: wrap;
+        dl{
+            position: relative;
+            width: 46%;
+            margin: 2rem 0 0 1.5rem;
+            dt{
+                text-align: center;
+                img{
+                    width: @mainWidth / 1.5;
+                }
+            }
+            dd{
+                width: @mainWidth / 1.5;
+                height: 5vh;
+                overflow: hidden;
+            }
+            .dd1{
+                font-size: 3.6vw;
+                margin: 0 0 4vh 5vw;
+            }
+            .dd2{
+                font-size: 5vw;
+                color: red;
+                margin: 0 0 1.5vh 4.5vw;
+            }
+            a{
+                width: @mainWidth;
+                height: 100%;
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+    }
+}
+.feet{
+    width: @mainWidth;
+    height: 8.8vh;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    .active{
+        color: #fa462d;
+        .img1{
+            display: none;
+        }
+        .img2{
+            display: inline-block;
+        }
+    }
+    dl{
+        margin-top: 1.3vh;
+        width: @mainWidth / 4;
+        text-align: center;
+        dt{
+            width: @mainWidth;
+            margin-bottom: 0.3vh;
+            img{
+                width: @mainWidth /3.8;
+            }
+            .img1{
+                display: inline-block;
+            }
+            .img2{
+                display: none;
+            }
+        }
+        dd{
+            width: @mainWidth;
+            font-size: 2.6vw;
+        }
+    }
+    .shop{
+            position: absolute;
+            right: @mainWidth * 0.05;
+            top: -4.5vh;
+            width: @mainWidth / 5.5;
+            height: 10vh;
+            background: #fa462d;
+            border-radius: 50%;
+            dt{
+                margin: 1.8vh 0 0.2vh 0;
+                img{
+                    width: @mainWidth / 2.5;
+                }
+            }
+            dd{
+                color: #fff;
+                font-size: 3.2vw;
+                span{
+                    font-size: 3.9vw;
+                    margin-right: 0.4rem;
+                }
+            }
+            a{
+                width: @mainWidth;
+                height: 100%;
+                position: absolute; 
+                left: 0;
+                bottom: 0;
+            }
+        }
+}

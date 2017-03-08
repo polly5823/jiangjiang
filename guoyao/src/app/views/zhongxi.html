@@ -1,0 +1,44 @@
+<link rel="stylesheet" type="text/css" href="styles/zhongxi.css"/>
+<div class="headers">
+	<form action="" method="post">
+		<img src="images/search.png" class="jing"/>
+		<a href="#/search"><input type="text" name="" placeholder="中西药品(8248)" /></a>
+	</form>
+	<button>搜索</button>
+</div>
+<div class="fl">
+	<p>
+		<span>全部分类</span>
+		<span>综合排序</span>
+	</p>
+	<p class="shai">筛选</p>
+</div>
+<div class="main">
+	<div class="dls">
+		<dl ng-repeat="item in data1">
+			<dt><img ng-src="{{item.picture}}"/></dt>
+			<dd class="dd1">{{item.name}}</dd>
+			<dd class="dd2">￥{{item.sellPrice}}</dd>
+			<a href="{{item.detailUrl}}"></a>
+		</dl>
+	</div>
+</div>
+<div class="feet">
+		<dl class="ft active">
+			<dt><a href="#/home"><img src="images/home.png" class="img1"/><img src="images/home(1).png" class="img2"/></a></dt>
+			<dd>首页</dd>
+		</dl>
+		<dl class="ft">
+			<dt><a href="#/category_list"><img src="images/class.png" class="img1"/><img src="images/class (1).png" class="img2"/></a></dt>
+			<dd>分类</dd>
+		</dl>
+		<dl class="ft">
+			<dt><a href="#/mine"><img src="images/mine.png" class="img1"/><img src="images/mine (1).png" class="img2"/></a></dt>
+			<dd>我的</dd>
+		</dl>
+		<dl class="shop">
+			<dt><img src="images/shop.png"/></dt>
+			<dd><span>0</span>件</dd>
+			<a href="#"></a>
+		</dl>
+	</div>
