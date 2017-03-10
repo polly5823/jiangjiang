@@ -1,0 +1,185 @@
+@mainWidth:100%;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    background: #eee;
+}
+div{
+    .headers{
+        width: @mainWidth;
+        margin: 0 auto;
+        height: 7.5vh;
+        display: flex;
+        justify-content: space-between;
+        background: #eee;
+        p:nth-child(1){
+            margin: 1.5vh 0 0 2vw;
+            img{
+                width: 7vw;
+            }
+        }
+        p:nth-child(2){
+            font-size: 3.8vw;
+            margin-top: 2.4vh;
+            color: #999;
+        }
+        p:nth-child(3){
+            font-size: 4vw;
+            margin: 2.4vh 2vw 0 0; 
+            color: #0066cc;
+        }
+    }
+   .article{
+       width: @mainWidth;
+       font-size: 3.8vw;
+       background: #fff;
+       dt{
+           width: @mainWidth;
+           p{
+               padding: 1vh 0;
+               margin-left: 3vw;
+               border-bottom: 0.1rem solid #ccc;
+           }
+       }
+       dd{
+           width: @mainWidth;
+           padding: 1vh 0;
+           display: flex;
+           flex-direction: row;
+           position: relative;
+           .ck{
+               width: 3rem;
+               height: 3rem;
+               margin: 5vh 4vw 0 4vw;
+           }
+           img{
+               width: @mainWidth * 0.2;
+               height: @mainWidth * 0.1;
+               padding: 2vh 0;
+               margin-right: 4vw;
+           }
+           .b{
+               width: @mainWidth * 0.5;
+               margin-top: 2vh;
+               span{
+                   display: block;
+                   color: #FA462D;
+                   margin-top: 1vh;
+               }
+           }
+           .n{  
+                position: absolute;
+                right: 2vw;
+                top: 8.7vh;
+                text-align: center;
+                button{
+                    font-size: 4vw;
+                    background: #fff;
+                    border: 0.2rem solid #ccc;
+                    padding: 1vh 2vw;
+                }
+                .txt{
+                    width: 15vw;
+                    font-size: 4vw;
+                    border: 0.2rem solid #ccc;
+                    padding: 1vh 0;
+                    text-align: center;
+                }
+           }
+           .no{
+               display: none;
+           }
+       }
+   }
+   .go{
+       width: @mainWidth;
+       font-size: 3.8vw;
+       text-align: center;
+       padding: 10vh 0 15vh 0;
+       border-bottom: 0.1rem solid #ccc;
+       a{
+           color: #0066cc;
+       }
+   }
+   .feet{
+        width: @mainWidth;
+        height: 8.8vh;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        background: #fff;
+        display: flex;
+        flex-direction: row;
+        .active{
+            color: #fa462d;
+            .img1{
+                display: none;
+            }
+            .img2{
+                display: inline-block;
+            }
+        }
+        dl{
+            margin-top: 1.3vh;
+            width: @mainWidth / 4;
+            text-align: center;
+            dt{
+                width: @mainWidth;
+                margin-bottom: 0.3vh;
+                img{
+                    width: @mainWidth /3.8;
+                }
+                .img1{
+                    display: inline-block;
+                }
+                .img2{
+                    display: none;
+                }
+            }
+            dd{
+                width: @mainWidth;
+                font-size: 2.6vw;
+            }
+        }
+        .shop{
+                position: absolute;
+                right: @mainWidth * 0.05;
+                top: -4.5vh;
+                width: @mainWidth / 5.5;
+                height: 10vh;
+                background: #fa462d;
+                border-radius: 50%;
+                dt{
+                    margin: 1.8vh 0 0.2vh 0;
+                    img{
+                        width: @mainWidth / 2.5;
+                    }
+                }
+                dd{
+                    color: #fff;
+                    font-size: 3.2vw;
+                    span{
+                        font-size: 3.9vw;
+                        margin-right: 0.4rem;
+                    }
+                }
+                a{
+                    width: @mainWidth;
+                    height: 100%;
+                    position: absolute; 
+                    left: 0;
+                    bottom: 0;
+                }
+            }
+    }
+}

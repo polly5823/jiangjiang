@@ -283,11 +283,10 @@
 </div>
 <div class="main">
 	<div class="dls">
-		<dl ng-repeat="item in data">
+		<dl ng-repeat="item in data" ng-click="clickFn(item.code)">
 			<dt><img ng-src="{{item.picture}}"/></dt>
 			<dd class="dd1">{{item.name}}</dd>
 			<dd class="dd2">￥{{item.sellPrice}}</dd>
-			<a href="#/shop"></a>
 		</dl>
 	</div>
 </div>
@@ -306,8 +305,8 @@
 		</dl>
 		<dl class="shop">
 			<dt><img src="images/shop.png"/></dt>
-			<dd><span>0</span>件</dd>
-			<a href="#"></a>
+			<dd><span>{{nums()}}</span>件</dd>
+			<a href="http://127.0.0.1/guoyao/dist/src/app/views/cart.html"></a>
 		</dl>
 	</div>
 	
@@ -315,18 +314,11 @@
 	$(".nav-left>li").click(function(){
 		$(this).addClass("cur").siblings().removeClass("cur"); 
 		var a = $(this).index();
-//		console.log($(".right>ul").eq(a))
 		$(".right>ul").eq(a).removeClass("category-items").siblings().addClass("category-items")
 	})
 	$(".fl>p>span").click(function(){
 		$(this).addClass("col").siblings().removeClass("col");
 		var b = $(this).index();
 		$(".boxes>div").eq(b).show().siblings().hide();
-//		$(".fl>p>span").click(function(){
-//			var c = $(this).index();
-//			if($(".boxes>div").eq(c).css("display") == "block"){
-//				$(".boxes>div").eq(c).hide()
-//			}
-//		})
 	})
 </script>

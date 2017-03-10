@@ -1,39 +1,158 @@
-<link rel="stylesheet" type="text/css" href="styles/shopmain.css"/>
+<div ng-app="myApp" ng-controller="myCtrl">
+<link rel="stylesheet" type="text/css" href="../styles/shopmain.css"/>
 <div class="headers">
-	<p><img src="images/back.png" class="back"/></p>
-	<p>药名</p>
+	<p><a href="http://127.0.0.1/guoyao/dist/src/app/index.html#/category_7"><img src="../images/back.png"/></a></p>
+	<p>{{data.name}}</p>
 	<p class="but">...</p>
 </div>
 <ul class="navs">
-	<li><a href="#/home"><img src="images/home(2).png"/><span>首页</span></a></li>
-	<li><a href="#/category_list"><img src="images/class(2).png"/><span>分类</span></a></li>
-	<li><a href="#/shop"><img src="images/shop.png"/><span>购物车</span></a></li>
-	<li><a href="#/mine"><img src="images/mine(2).png"/><span>我的</span></a></li>
+	<li><a href="http://127.0.0.1/guoyao/dist/src/app/index.html#/home"><img src="../images/home(2).png"/><span>首页</span></a></li>
+	<li><a href="http://127.0.0.1/guoyao/dist/src/app/index.html#/category_list"><img src="../images/class(2).png"/><span>分类</span></a></li>
+	<li><a href="http://127.0.0.1/guoyao/dist/src/app/views/cart.html"><img src="../images/shop.png"/><span>购物车</span></a></li>
+	<li><a href="http://127.0.0.1/guoyao/dist/src/app/index.html#/mine"><img src="../images/mine(2).png"/><span>我的</span></a></li>
 </ul>
+<div class="main">
+	<dl>
+		<dt><img ng-src="{{data.picture}}"/></dt>
+		<dd class="name">{{data.name}}</dd>
+		<dd class="title">{{data.title}}</dd>
+		<dd class="money">￥{{data.sellPrice}}</dd>
+	</dl>
+	<p class="list">
+		<span class="curs">商品详情</span>
+		<span>说明书</span>
+	</p>
+	<ul>
+		<li class="nn">{{data.name}}</li>
+		<li style="text-align: center;">
+			<img ng-src="{{data.picture}}"/>
+		</li>
+	</ul>
+</div>
 <div class="feeter">
 	<dl class="ft">
-		<dt><img src="images/phone.png"/></dt>
+		<dt><img src="../images/phone.png"/></dt>
 		<dd>电话咨询</dd>
 	</dl>
 	<dl class="ft">
-		<dt><img src="images/service.png"/></a></dt>
+		<dt><img src="../images/service.png"/></a></dt>
 		<dd>客服</dd>
 	</dl>
 	<dl class="ft">
-		<dt><img src="images/like.png"/></dt>
+		<dt><img src="../images/like.png"/></dt>
 		<dd>收藏</dd>
 	</dl>
-	<dl class="ft shop">
-		<dt><img src="images/shop.png"/></dt>
+	<dl class="ft shop" ng-click="cart()">
+		<dt><img src="../images/shop.png"/></dt>
 		<dd>购物车</dd>
-		<span class="num">0</span>
+		<span class="num">{{nums()}}</span>
 	</dl>
 	<p class="add">加入购物车</p>
 </div>
+<div id="car">
+	<dl>
+		<dt>
+			<img ng-src="{{data.picture}}"/>
+			<p class="b">
+				{{data.name}}
+				<span>￥{{data.sellPrice}}</span>
+			</p>
+		</dt>
+		<dd>
+			数量：
+			<button ng-click="reduce()">-</button><input type="text" size="5" ng-model="data.num" ng-keyup="keyup()"/><button ng-click="adds()">+</button>
+		</dd>
+	</dl>
+	<p class="gwc" ng-click="add($event)">加入购物车</p>
+</div>
+</div>
+<script type="text/javascript" src="../scripts/angular.js"></script>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
-	$(".back").click(function(){
-		history.back()
-	})
+
+var app = angular.module('myApp', []);
+
+app.controller('myCtrl', ['$scope','$http', function($scope,$http){
+
+    var param = findParam(window.location.search);
+    $http.get('http://127.0.0.1/guoyao/src/app/views/shopmain.php?comId='+param).then( function(data){
+//      console.log(data);
+        $scope.data = data.data;
+        $scope.data.num = 1;
+        $scope.adds = function(){
+			$scope.data.num++;
+			return $scope.data.num
+		};
+		$scope.reduce = function(id){
+			$scope.data.num--;
+			if($scope.data.num<1){
+				$scope.data.num = 1;
+			}
+			return $scope.data.num
+		};
+    });
+    $scope.add = function($event){
+        $event.stopPropagation();
+
+        if(localStorage[$scope.data.id]){
+            var data = JSON.parse(localStorage[$scope.data.id]);
+            data.num += $scope.data.num;
+            localStorage[$scope.data.id] = JSON.stringify(data);
+//          console.log(localStorage[$scope.data.id]);
+
+        }else{
+            var obj = {
+                name:$scope.data.name,
+                picUrl:$scope.data.picture,
+                price:$scope.data.sellPrice,
+                codes:$scope.data.code,
+                num:$scope.data.num,
+                id:$scope.data.id,
+                check:true
+            }
+
+            localStorage[$scope.data.id] = JSON.stringify(obj);
+			console.log($scope.data.code)
+            // console.log(localStorage[$scope.data.id]);
+        }
+
+
+
+    }
+    $scope.cart = function(){
+        // 点击购物车跳转到购物车列表中
+        window.location.href = 'http://127.0.0.1/guoyao/dist/src/app/views/cart.html';
+    }
+
+
+	$scope.dataArr = [];
+	    for(var item in localStorage){
+	        $scope.dataArr.push(JSON.parse(localStorage[item]));
+	    }
+//	    console.log($scope.dataArr);
+		$scope.nums = function(){
+			var a = 0;
+			angular.forEach($scope.dataArr,function(item){
+				if(item.num){
+					a += parseInt(item.num)
+				}
+			});
+			return a;
+		}
+}]);
+
+function findParam(a){
+    var params = a.split('=')[1];
+    return params;
+}
+
+
+
+
+
+
+</script>
+<script type="text/javascript">
 	$(".but").click(function(){
 		if($(".navs").css("display") == 'none'){
 			$(".navs").show();
@@ -41,4 +160,13 @@
 			$(".navs").hide()
 		}
 	})
+	$(".list>span").click(function(){
+		$(this).addClass("curs").siblings().removeClass("curs")
+	});
+	$(".add").click(function(){
+		$("#car").show();
+	});
+	$(".gwc").click(function(){
+		$("#car").hide()
+	});
 </script>

@@ -1,0 +1,240 @@
+<link rel="stylesheet" type="text/css" href="../styles/cart.css"/>
+<style type="text/css">
+	.close{
+		width: 100%;
+		height: 8.8vh;
+		background: rgba(0,0,0,0.6);
+		position: fixed;
+		left: 0;
+		bottom: 11vh;
+		font-size: 3.8vw;
+		color: #fff;
+		display: flex;
+		flex-direction: row;
+	}
+	.close p:nth-child(1){
+		width: 20%;
+		display: flex;
+		flex-direction: row;
+		margin-right: 5vw;
+	}
+	.close p:nth-child(1) input{
+		width: 3rem;
+		height: 3rem;
+		margin: 3vh 2vw 0 4vw;
+	}
+	.close p:nth-child(1) span{
+		display: block;
+		margin-top: 2.8vh;
+	}
+	.close p:nth-child(2){
+		width: 50%;
+		margin: 1vh 0 0 0;
+		font-size: 4.2vw;
+	}
+	.close p:nth-child(2) span{
+		font-size: 4vw;
+		color: #ccc;
+	}
+	.close p:nth-child(3){
+		font-size: 4.2vw;
+		width: 30%;
+		height: 6.5vh;
+		background: #FA462D;
+		text-align: center;
+		padding-top: 2.3vh;
+	}
+	.clear{
+		width: 100%;
+		height: 8.8vh;
+		position: fixed;
+		left: 0;
+		bottom: 11vh;
+		font-size: 3.8vw;
+		color: #000;
+		border-top: 0.1rem solid #ccc;
+		display: none;
+	}
+	.clear p:nth-child(1){
+		float: left;
+		width: 20%;
+		display: flex;
+		flex-direction: row;
+		margin-right: 5vw;
+	}
+	.clear p:nth-child(1) input{
+		width: 3rem;
+		height: 3rem;
+		margin: 3vh 2vw 0 4vw;
+	}
+	.clear p:nth-child(1) span{
+		display: block;
+		margin-top: 2.8vh;
+	}
+	.clear p:nth-child(2){
+		float: right;
+	}
+	.clear button:nth-child(1){
+		border: 0.1rem solid #aaa;
+		background: #fff;
+		font-size: 4vw;
+	}
+	.clear button:nth-child(2){
+		border: 0;
+		background: #FA462D;
+		color: #fff;
+		font-size: 4vw;
+	}
+	.clear button{
+		width: 24vw;
+		height: 5vh;
+		margin: 2vh 3vw 0 0;
+		border-radius: 1rem;
+	}
+</style>
+<div ng-app="myApp" ng-controller="myCtrl">
+	<div class="headers">
+		<p><a href="http://127.0.0.1/guoyao/dist/src/app/index.html#/category_7"><img src="../images/back.png"/></a></p>
+		<p>购物车</p>
+		<p class="btn">编辑</p>
+	</div>
+	<dl ng-repeat="item in dataArr" class="article">
+		<dt>
+			<p>商品编码：{{item.codes}}</p>
+		</dt>
+		<dd>
+			<input type="checkbox" class="ck" ng-model="item.check"/>
+			<img ng-src="{{item.picUrl}}"/>
+			<p class="b">
+				{{item.name}}
+				<span>￥{{item.price}}</span>
+			</p>
+			<p class="n a">×{{item.num}}</p>
+			<p class="n no d"><button ng-click="reduce(item.id)">-</button><input type="text" ng-model="item.num" class="txt"/><button ng-click="adds(item.id)">+</button></p>
+		</dd>
+	</dl>
+	<p ng-hide="dataArr.length" class="go">购物车内暂时没有商品 <a href="http://127.0.0.1/guoyao/dist/src/app/index.html#/home">去购物></a></p>
+	<div class="close">
+		<p><input type="checkbox" ng-model="check" ng-click="clickFn()"/><span>全选</span></p>
+		<p>
+			合计：￥ {{sum()}}<br />
+			<span>立减：￥0.00</span>
+		</p>
+		<p>结算({{nums()}})</p>
+	</div>
+	<div class="clear">
+		<p><input type="checkbox" ng-model="check" ng-click="clickFn()"/><span>全选</span></p>
+		<p>
+			<button>移入收藏</button>
+			<button ng-click="clearFn()">删除</button>
+		</p>
+	</div>
+	<div class="feet">
+		<dl class="ft">
+			<dt><a href="http://127.0.0.1/guoyao/dist/src/app/index.html#/home"><img src="../images/home.png"/></a></dt>
+			<dd>首页</dd>
+		</dl>
+		<dl class="ft">
+			<dt><a href="http://127.0.0.1/guoyao/dist/src/app/index.html#/category_list"><img src="../images/class.png"/></a></dt>
+			<dd>分类</dd>
+		</dl>
+		<dl class="ft">
+			<dt><a href="http://127.0.0.1/guoyao/dist/src/app/index.html#/mine"><img src="../images/mine.png"/></a></dt>
+			<dd>我的</dd>
+		</dl>
+		<dl class="shop">
+			<dt><img src="../images/shop.png"/></dt>
+			<dd><span>{{nums()}}</span>件</dd>
+		</dl>
+	</div>
+</div>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="../scripts/angular.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	var app = angular.module('myApp', []);
+	app.controller('myCtrl', ['$scope', function($scope){
+	    $scope.dataArr = [];
+	    for(var item in localStorage){
+	        $scope.dataArr.push(JSON.parse(localStorage[item]));
+	    }
+		$scope.nums = function(){
+			var a = 0;
+			angular.forEach($scope.dataArr,function(item){
+				if(item.num){
+					a += parseInt(item.num)
+				}
+			});
+			return a;
+		}
+		$scope.check = true;
+		$scope.sum = function(){
+			$scope.allPrice = 0;
+			angular.forEach($scope.dataArr,function(item){
+				if(item.check == true){
+					$scope.allPrice += item.num * item.price;
+				}
+			})
+			return $scope.allPrice
+		}
+		$scope.clickFn = function(){
+			angular.forEach($scope.dataArr,function(item){
+				item.check = $scope.check;
+			})
+		}
+		$scope.adds = function(id){
+			angular.forEach($scope.dataArr,function(item){
+				if(item.id == id){
+					item.num++;
+				}
+				return item.num
+			})
+		};
+		$scope.reduce = function(id){
+			angular.forEach($scope.dataArr,function(item,index){
+				if(item.id == id){
+					item.num--;
+					if(item.num<1){
+						if(confirm("是否移除该商品")){
+							localStorage.removeItem(item.id)
+							$scope.dataArr = [];
+						    for(var item in localStorage){
+						        $scope.dataArr.push(JSON.parse(localStorage[item]));
+	    					}
+						}
+					}
+				}
+			})
+		};
+		
+		$scope.clearFn = function(){
+			angular.forEach($scope.dataArr,function(item){
+				if(item.check == true){
+					localStorage.removeItem(item.id)
+					$scope.dataArr = [];
+				    for(var item in localStorage){
+				        $scope.dataArr.push(JSON.parse(localStorage[item]));
+					}
+				}
+			})
+		};
+		
+		
+	}]);
+	
+	var bol = true;
+	$(".btn").click(function(){
+		if(bol){
+			$('.btn').html("完成")
+			$(".a").addClass("no").siblings().removeClass("no");
+			$(".close").hide();
+			$(".clear").show();
+			return bol = false
+		}else{
+			$('.btn').html("编辑")
+			$(".d").addClass("no").siblings().removeClass("no");
+			$(".close").show();
+			$(".clear").hide();
+			return bol = true
+		}
+	})
+</script>

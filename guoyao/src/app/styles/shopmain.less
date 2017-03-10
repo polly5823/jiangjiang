@@ -28,6 +28,9 @@ li{
             }
         }
         p:nth-child(2){
+            width: @mainWidth * 0.7;
+            height: 4.5vw;
+            overflow: hidden;
             font-size: 3.8vw;
             margin-top: 2.4vh;
             color: #999;
@@ -68,6 +71,71 @@ li{
             
         }
     }
+    .main{
+        margin-top: 7.5vh;
+        width: @mainWidth;
+        dl{
+            width: @mainWidth;
+            dt{
+                text-align: center;
+                width: @mainWidth;
+                padding: 5vh 0 5vh 0;
+                border-bottom: 0.15rem solid #ccc;
+                img{
+                    width: @mainWidth * 0.7;
+                }
+            }
+            .name{
+                font-size: 4.2vw;
+                margin: 2vh 0 1vh 5vw;
+            }
+            .title{
+                font-size: 3.6vw;
+                color: #FA462D;
+                margin: 0 0 1vh 4.8vw;
+            }
+            .money{
+                font-size: 5vw;
+                color: #FA462D;
+                font-weight: bold;
+                margin: 0 0 2vh 4vw;
+            }
+        }
+        .list{
+            width: @mainWidth;
+            display: flex;
+            flex-direction: row;
+            background: #eee;
+            color: #999;
+            span{
+                padding: 4.5vh 0 2.2vh 0;
+                display: block;
+                width: @mainWidth / 2;
+                text-align: center;
+                font-size: 3.8vw;
+            }
+            .curs{
+                color: #FA462D;
+                border-bottom:  0.4rem solid #FA462D;
+            }
+        }
+        ul{
+            width: @mainWidth;
+            li{
+                width: @mainWidth;
+                font-size: 3.8vw;
+                color: #333;
+                img{
+                    width: @mainWidth * 0.7;
+                }
+            }
+            .nn{
+                padding: 2vh 0;
+                border-bottom: 0.15rem solid #ccc;
+                text-indent: 4vw;
+            }
+        }
+    }
     .feeter{
         width: @mainWidth;
         height: 8.8vh;
@@ -77,6 +145,7 @@ li{
         background: rgba(0,0,0,0.55);
         display: flex;
         flex-direction: row;
+        z-index: 999;
         .ft{
             margin-top: 1vh;
             width: @mainWidth / 5.5;
@@ -118,3 +187,74 @@ li{
             font-size: 4.2vw;
         }
     }
+#car{
+    display: none;
+    z-index: 999;
+    width: @mainWidth;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    dl{
+        position: absolute;
+        left: 0;
+        bottom: 8.8vh;
+        background: #fff;
+        
+        height: 55vh;
+        width: @mainWidth;
+        dt{
+            width: @mainWidth * 0.9;
+            margin: 0 auto;
+            padding: 2.5vh 0;
+            display: flex;
+            flex-direction: row;
+            border-bottom: 0.2rem solid #ddd;
+            img{
+                width: @mainWidth * 0.2;
+                height: @mainWidth * 0.2;
+                padding-right: 5vw;
+            }
+            .b{
+                margin-top: 2vh;
+                font-size: 3.8vw;
+                span{
+                    display: block;
+                    color: #FA462D;
+                    margin-top: 1vh;
+                }
+            }
+        }
+        dd{
+            width: @mainWidth * 0.9;
+            margin: 0 auto;
+            font-size: 4vw;
+            margin-top: 3vh;
+            button{
+                font-size: 4vw;
+                background: #fff;
+                border: 0.2rem solid #ccc;
+                padding: 1vh 2vw;
+            }
+            input{
+                font-size: 4vw;
+                border: 0.2rem solid #ccc;
+                padding: 1vh 0;
+                text-align: center;
+            }
+        }
+    }
+    .gwc{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: @mainWidth;
+        height: 8.8vh;
+        background: #FA462D;
+        color: #fff;
+        text-align: center;
+        font-size: 4.8vw;
+        line-height: 8.6vh;
+    }
+}

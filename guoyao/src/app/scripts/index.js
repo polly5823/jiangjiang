@@ -8,6 +8,7 @@ myApp.config(['$routeProvider','$locationProvider',function($routeProvider,$loca
 			templateUrl:"views/home.html"
 		})
 		.when("/category_list",{
+			controller:"cCtrl",
 			templateUrl:"views/category_list.html"
 		})
 		.when("/search",{
@@ -21,9 +22,8 @@ myApp.config(['$routeProvider','$locationProvider',function($routeProvider,$loca
 			controller:"zxCtrl",
 			templateUrl:"views/zhongxi.html"
 		})
-		.when("/shop",{
-			controller:"shopCtrl",
-			templateUrl:"views/shopmain.html"
+		.when("/cart",{
+			templateUrl:"views/cart.html"
 		})
 		.otherwise({
 			redirectTo:'/home'
@@ -46,6 +46,35 @@ myApp.controller('hCtrl',['$scope','$http',function($scope,$http){
 		$scope.data8 = a.yin_data;
 		$scope.data9 = a.like_data;
 	});
+	$scope.dataArr = [];
+    for(var item in localStorage){
+        $scope.dataArr.push(JSON.parse(localStorage[item]));
+    }
+	$scope.nums = function(){
+		var a = 0;
+		angular.forEach($scope.dataArr,function(item){
+			if(item.num){
+				a += parseInt(item.num)
+			}
+		});
+		return a;
+	}
+}]);
+
+myApp.controller("cCtrl",['$scope',function($scope){
+	$scope.dataArr = [];
+    for(var item in localStorage){
+        $scope.dataArr.push(JSON.parse(localStorage[item]));
+    }
+	$scope.nums = function(){
+		var a = 0;
+		angular.forEach($scope.dataArr,function(item){
+			if(item.num){
+				a += parseInt(item.num)
+			}
+		});
+		return a;
+	}
 }]);
 
 myApp.controller("sCtrl",['$scope',function($scope){
@@ -58,9 +87,26 @@ myApp.controller("zxCtrl",['$scope','$http',function($scope,$http){
 	$http.get('data/zhongxi.json').success(function(a){
 		$scope.data = a.xian_data;
 	});
+	$scope.clickFn = function(a){
+		window.location.href = 'http://127.0.0.1/guoyao/dist/src/app/views/shopmain.html?comId='+a;
+//		console.log(a)
+	}
+	$scope.dataArr = [];
+    for(var item in localStorage){
+        $scope.dataArr.push(JSON.parse(localStorage[item]));
+    }
+	$scope.nums = function(){
+		var a = 0;
+		angular.forEach($scope.dataArr,function(item){
+			if(item.num){
+				a += parseInt(item.num)
+			}
+		});
+		return a;
+	}
 }]);
 
-myApp.controller("shopCtrl",['$scope',function($scope){
+myApp.controller("cartCtrl",['$scope',function($scope){
 	
 }])
 

@@ -3,7 +3,7 @@
     	{
                 "code": "GWM0200120",
                 "costPrice": "94.30",
-                "detailUrl": "http://m.yao123.com/product/GWM0110346_1",
+                "detailUrl": "http://127.0.0.1/guoyao/dist/src/app/views/shopmain.html?comId=GWM0200120",
                 "goodsTypeTarget": 0,
                 "goodtype": 1,
                 "id": "8038",
@@ -28,7 +28,7 @@
             {
                 "code": "GWM0200121",
                 "costPrice": "75.80",
-                "detailUrl": "http://m.yao123.com/product/GWM0211468_1",
+                "detailUrl": "http://127.0.0.1/guoyao/dist/src/app/views/shopmain.html?comId=GWM0200121",
                 "goodsTypeTarget": 0,
                 "goodtype": 1,
                 "id": "8039",
@@ -53,7 +53,7 @@
             {
                 "code": "GWM0200122",
                 "costPrice": "4.20",
-                "detailUrl": "http://www.yao123.com/productDetail/GWM0200122_1",
+                "detailUrl": "http://127.0.0.1/guoyao/dist/src/app/views/shopmain.html?comId=GWM0200122",
                 "goodsTypeTarget": 0,
                 "goodtype": 1,
                 "id": "8040",
@@ -78,7 +78,7 @@
             {
                 "code": "GWM0200137",
                 "costPrice": "7.00",
-                "detailUrl": "http://m.yao123.com/product/TCGWM0100071_2",
+                "detailUrl": "http://127.0.0.1/guoyao/dist/src/app/views/shopmain.html?comId=GWM0200123",
                 "goodsTypeTarget": 0,
                 "goodtype": 1,
                 "id": "8055",
